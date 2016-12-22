@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+#pay{ margin:20px 40px}
+.paytop{}
+#pay .paytop{ height:40px; line-height:40px; background:#eef8ff; border-bottom:2px solid #76bbff; padding-left:30px; }
+#pay .paytop ul{}
+#pay .paytop ul li{ float:left; padding:0 30px; font-size:16px;}
+#pay .paytop ul li a{font-size:16px;}
+#pay .on{ background:#fff; border-top:2px solid #76bbff; border-left:1px solid #76bbff; border-right:1px solid #76bbff;}
+#pay .on a{color:#1e87ee}
+#pay .paymain{ line-height:50px; }
+#pay .payall{ background:url(../images/payall.png); width:835px; padding-top:13px; border-top:1px dashed #ccc;}
+#pay .payall ul{}
+#pay .payall ul li{ width:152px; height:30px; line-height:30px; padding-left:5px; margin:15px 20px 0 15px; border:1px solid #dddddd; float:left; }
+

@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+.listseat,.listbnt,.jtleft,.jtright,.listbuy,.listbury,.fzhan,.dzhan,.addchengke,.shuoming,.delet,.ico-order,.ico-time,.trainseat,.huan,.up,.donw,.middle{ background:url(../images/train.png) no-repeat;}
+
+#train .trainseat{ background-position:0 -240px; width:195px; height:43px; line-height:43px; border:none; padding-left:15px; font-size:16px; color:#999; margin-left:10px;}
+#train .seabnt{ background-position:-0 -49px; width:259px; height:36px; line-height:36px; font-size:16px; color:#FFF; border:none;}
+#train .huan{ background-position:-350px -96px; width:20px; height:80px;}
+#train{ width:1190px; margin:0 auto; padding-top:15px;}
+#train .listsea{ height:60px; background:#fff; line-height:60px; border:1px solid #e0e0e0}
+#train .listseat{ width:147px; height:29px; line-height:29px; border:none; padding-left:10px; font-weight:bold;}
+#train .listbnt{ width:93px; height:33px; line-height:33px; border:none; background-position:-180px 0; color:#fff;}
+#train .listbuy{ width:63px; height:24px; line-height:24px; background-position:-360px 0; border:none; color:#fff; cursor:pointer}
+#train .listbury{width:63px; height:24px; line-height:24px; background-position:-430px 0; border:none; color:#fff; cursor:pointer}
+#train .tishi{ background:#e5f6ff; font-size:14px; color:#3296e5; padding:5px 20px; font-weight:bold}
+#train .left{ width:857px;}
+#train .right{ width:320px;}
+#train .jtleft{ background-position:-275px 0; height:45px; width:45px; border-bottom:2px solid #55bdf7; }
+#train .jtright{ background-position:-310px 0; height:45px; width:46px; border-bottom:2px solid #55bdf7; border-left:1px solid #e0e0e0;}
+#train .xingqi{ background:#fff; border:1px solid #e0e0e0}
+#train .date{}
+#train .date ul{}
+#train .date ul li{ width:108px; float:left; text-align:center; background:#fdfdfd; border-bottom:2px solid #55bdf7; height:40px; padding-top:5px; line-height:18px;  border-left:1px solid #e0e0e0;}
+#train .on{background:#fff; border-bottom:0px; height:43px; border-top:2px solid #55bdf7; font-weight:bold;}
+#train .category{ width:850px; line-height:30px;}
+#train .category ul{ width:700px;}
+#train .category ul li{ width:90px; float:left;color:#666666}
+#train .unlimited{ background:#55bdf7; padding:2px 10px; color:#fff}
+#train .up{ background-position:-7px -315px; padding-left:20px; padding-top:10px;}
+#train .donw{ background-position:-60px -315px; padding-left:20px; padding-top:10px;}
+#train .middle{ background-position:-32px -315px; padding-left:20px; padding-top:10px;}
+#train .list{}
+#train .list th{ background:#efefef; height:45px; line-height:45px; border-bottom:1px solid #d7e1e4; border-top:1px solid #d7e1e4; font-size:14px;}
+#train .list td{ font-size:12px; height:30px; line-height:30px;}
+#train .fzhan{ background-position:-475px -40px; padding-left:22px;}
+#train .dzhan{ background-position:-475px -75px; padding-left:22px;}
+#train .listctop{ padding:10px 30px 0 30px; border-bottom:1px solid #e6e6e6; height:35px; line-height:25px;} 
+#train .listsanjiao{ width:23px; height:7px; line-height:7px; background-image:url(../images/index.png); background-position:-310px 0; position:absolute; top:39px; left:68px; }
+#train .hoteltop{background:#fff; border:1px solid #e0e0e0; padding-bottom:15px;}
+#train .hoteltop td{ height:30px; line-height:30px;}
+#train .mingxi{ margin:10px 25px 0 25px;}
+#train .mingxi td{ border-bottom:1px dashed #e0e0e0; padding-left:5px; font-size:14px; padding-right:10px;}  
+#train .mingxi th{font-size:14px; padding-left:5px;padding-right:10px;}
+#train .traindao{ background:url(../images/traindao.png) 0 40px no-repeat; height:100px;} 
+#train .traindao ul{}
+#train .traindao ul li{ float:left; width:200px; text-align:center; line-height:40px; padding-top:10px; font-size:14px; font-weight:bold;}
+#train .checi{ margin:10px 25px 0 25px;font-size:14px;}
+#train .checi td{ line-height:26px; height:26px;}
+#train .tishitwo{ background:#fdf0dc; border:2px solid #f7c891; padding:10px 15px; margin:10px 0; color:#d55f10;}
+#train .textname{ border:1px solid #b0b0b0; height:30px; width:80px; line-height:30px; padding-left:10px; font-size:16px; font-weight:bold;}
+#train .textnado{ border:1px solid #b0b0b0; height:30px; width:190px; line-height:30px; padding-left:10px; font-size:16px; font-weight:bold;}
+#train .selnado{border:1px solid #b0b0b0; width:112px; height:32px; line-height:32px; padding-left:5px;font-size:16px; font-weight:bold;} 
+#train .chengke{}
+#train .chengke td{ height:60px; border-bottom:1px solid #e6e6e6; padding-left:10px; font-size:14px;}
+#train .addchengke{ background-color:#f8f8f8; background-position:-420px -112px; height:38px; line-height:38px; padding-left:90px; border-bottom:1px solid #e6e6e6;}
+#train .baoxian{ line-height:30px; margin-top:15px; padding-left:50px; font-size:14px; color:#7b7b7b;}
+#train .shuoming{ height:35px; line-height:35px; background-position:-420px -170px; height:35px; line-height:35px; padding-left:90px; margin-top:10px; font-size:14px;}
+#train .textphone{border:1px solid #b0b0b0; height:30px; width:150px; line-height:30px; padding-left:10px; font-size:16px; font-weight:bold;}
+#train .yuedu{ height:35px; line-height:35px; height:35px; line-height:35px; padding-left:55px; margin-top:10px; font-size:14px;}
+#train .lianxiren{}
+#train .lianxiren td{ height:40px;padding-left:10px; font-size:14px;}
+#train .bntbook{ width:288px; height:50px; line-height:36px; font-size:18px; font-weight:bold; color:#fff; text-align:center; margin:20px 300px; background:#ffa739; border:1px solid #d07402; cursor:pointer;} 
+#train .delet{ width:24px; height:24px; background-position:-360px -40px; cursor:pointer; margin-top:3px; display:block}
+#train .ordertop{ width:1190px; height:125px; background:#fff; border:1px solid #e0e0e0;}
+#train .ico-order{ float:left; background-position:0 -100px; height:125px; width:150px; margin-left:50px;}
+#train .ico-time{ float:right; background-position:-160px -85px; height:95px; width:120px; padding:35px 0 0 35px; margin-right:50px; font-size:30px; font-weight:bolder; color:#fff;}
+#train .ordertop dl{ line-height:40px; font-size:16px; padding-top:20px;} 
+#train .ordertop dd{ line-height:40px; font-size:16px;} 
+#train .ordermain{ position:absolute; top:55px; left:520px; width:480px; background:#fff; border:1px solid #e0e0e0; z-index:99;box-shadow: 3px 3px 5px #dfdfdf;}
+#train .ordercheci{ height:45px; line-height:45px; border-bottom:1px solid #e6e6e6; background:#f8f8f8; padding-left:30px;}
+#train .ordermain ul{ padding:10px 30px;}
+#train .ordermain ul li{ height:24px; line-height:24px;}
+#train .guanbi{ padding:8px 8px;}
+#train .orderpay{background:#fff; border:1px solid #e0e0e0;}
+
+
+#train .traintop{ width:855px; border:1px solid #c8c7c7; background:#fff;}
+#train .publicmain{ margin:5px 20px 16px 30px;} 
+#train .publicmain ul{}
+#train .publicmain ul li{ width:141px; height:40px; line-height:20px; background:#f3f3f3; margin-top:10px; float:left; margin-right:10px; padding:5px 5px;}
+#train .gaotiemain{ margin:5px 20px 16px 30px; } 
+#train .gaotiemain ul{}
+#train .gaotiemain ul li{ width:139px; height:40px; line-height:20px; border:1px solid #e6e6e6; margin-top:10px; float:left; margin-right:10px; padding:5px 5px;}
+#train .trainalltop{ padding:5px 30px 0 30px; border-bottom:1px solid #e6e6e6; height:40px; line-height:35px;}
+#train .public-city{ padding-right:10px;}
+#train .public-city ul{}
+#train .public-city ul li{ width:70px; text-align:center; line-height:40px;}
+#train .public-city ul li a{ font-size:16px;}
+
+
+#train{ width:1190px; margin:0 auto; padding-top:15px;}
+#train .seachbox{ background:#fff; border:1px solid #c8c7c7;}
+#train .adindex{ padding:10px;}
+#train .seatitle{ width:160px;}
+#train .seatitle ul{}
+#train .seatitle ul li{ cursor:pointer; font-size:16px; float:left; background:#f7f7f7; height:64px; line-height:64px; border:1px solid #cccccc; border-top:none; border-left:none; width:160px;}
+#train .seatitle ul li:hover{ color:#f48000;}
+#train .seatitle ul li .now{ background:#fff; border-right:none;}
+#train .seachleft{ width:820px;}
+#train .seaone{  background-position:-540px -0px; padding-left:60px; }
+#train .seatwo{  background-position:-540px -64px; padding-left:60px; }
+#train .seathere{  background-position:-540px -128px; padding-left:60px; }
+#train .seafour{  background-position:-540px -192px; padding-left:60px; }
+#train .seafive{  background-position:-540px -256px; padding-left:60px; }
+#train .seatitleon{background:#fff; border-right:none}
+#train .change{ width:40px; background-position:-260px 0 ; height:80px; margin-top:85px; cursor:pointer;}
+#train .seach td{ height:58px; font-size:16px;}
+#train .lcxiangqing{ width:90%; margin:0 auto; text-align:center; border:2px solid #abdcf0; border-collapse:collapse;}
+#train .lcxiangqing th{ height:26px; line-height:26px; background:#f1fbff; border-top:1px solid #abdcf0; border-bottom:1px solid #abdcf0; font-size:12px;}
+#train .lcxiangqing td{ height:26px; line-height:26px;  border-top:1px solid #f0f0f0;}
+
+
+
+
+
+
+

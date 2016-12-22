@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+.allbj{
+	background:none;
+}
+.bjbj{
+	width:100%;
+	height:15px;
+	background:url(../busimg/bjmiddle.png) repeat-x;
+}
+.public-box{
+	width:1206px;
+	min-height:600px;
+	margin:0 auto;
+}
+.main-hd-h {
+    color: #666;
+    font-size: 14px;
+    height: 48px;
+    line-height: 48px;
+    width: 1206px;
+}
+.main-hd-h a {
+    color: #3895e2;
+    font-size: 14px;
+}
+.main-hd-h a:hover {
+    text-decoration: underline;
+}
+.public-in{
+	width:1206px;
+	min-height:500px;
+	overflow:hidden;
+	margin-bottom:20px;
+}
+.in-l{
+	width:818px;
+	min-height:500px;
+	float:left;
+}
+.l-hd{
+	width:818px;
+	height:40px;
+	line-height:40px;
+	color:#3895e2;
+	font-size:18px;
+	border-bottom:2px solid #3895e2;
+	margin-bottom:10px;
+}
+.l-at{
+	width:818px;
+	min-height:450px;
+}
+.l-at h3{
+	margin:0 auto;
+	text-align:center;
+	color:#3895e2;
+	font-size:16px;
+}
+.l-at .at-time{
+	width:818px;
+	height:50px;
+}
+.time-in{
+	width:300px;
+	height:50px;
+	line-height:50px;
+	margin:0 auto;
+}
+.time-in span{
+	color:#999;
+	font-size:14px;
+}
+.time-in .time{
+	float:left;
+}
+.time-in .ly{
+	float:right;
+}
+.l-p{
+	width:778px;
+	min-height:300px;
+	padding:10px 20px;
+	color:#999;
+	font-size:14px;
+}
+.l-p p{
+	text-indent:2em;
+	text-align:justify;
+}
+.l-p .sm{
+	width:45px;
+	margin-left:733px;
+	color:#3895e2;
+	margin-top:20px;
+}
+
+
+
+
+
+
+.in-r{
+	width:310px;
+	min-height:500px;
+    border:1px solid #CCC;
+	float:right;
+	padding:0 15px;
+}
+.r-hd{
+	width:310px;
+	height:40px;
+	line-height:40px;
+	border-bottom:2px solid #3895e2;
+	color:#3895e2;
+	font-size:18px;
+}
+.r-hd span{
+	float:left;
+}
+.r-hd a{
+	display:block;
+	float:right;
+	height:40px;
+	line-height:40px;
+	color:#3895e2;
+}
+.r-hd a:hover{
+	color:#ff9c00;
+}
+.r-bd{
+	width:310px;
+	min-height:450px;
+	margin:10px 0;
+}
+.r-bd li{
+	width:310px;
+	height:30px;
+	line-height:30px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+.r-bd li a{
+	color:#666;
+	font-size:14px;
+}
+.r-bd li a:hover{
+	color:#3895e2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

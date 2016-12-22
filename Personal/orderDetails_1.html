@@ -1,0 +1,359 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="../style/orderDetails_1.css" rel="stylesheet" type="text/css" />
+<link href="../style/base.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/orderDetails_1.js"></script>
+</head>
+
+<body>
+<iframe src="../top.html" height="120" width="100%" frameborder="0" scrolling="auto" hspace="0"></iframe>
+<div class="middle">
+	<div class="memberleft f">
+		<div class="memberlefttitle"><span class="icomy">&nbsp;</span>我的账户</div>
+		<dl>
+			<dt><span class="icopersonal">&nbsp;</span>个人信息</dt>
+            <dd><a href="#">个人信息</a></dd>
+            <dd><a href="#">修改密码</a></dd>
+            <dd><a href="#">常用乘机人</a></dd>
+            <dd><a href="#">常用配送地址</a></dd>
+		</dl>
+		<dl>
+            <dt><span class="icoorder">&nbsp;</span>我的订单</dt>
+            <dd><a href="#">酒店订单</a></dd>
+            <dd><a href="#">机票订单</a></dd>
+            <dd><a href="#" class="font-fe8112-14">汽车票订单</a></dd>
+		</dl>
+		<dl>
+            <dt><span class="icointegral">&nbsp;</span>我的积分</dt>
+            <dd><a href="#">积分明细</a></dd>
+            <dd><a href="#">兑换记录</a></dd>
+		</dl>
+	</div>
+    <div class="memberright f">
+		<div class="crumbs">您现在的位置：<a class="colBlue" href="#">我的帐户</a> > 汽车票订单</div>
+		<div class="busOrderBox">
+        	<div class="limitWidth">
+            	<div class="busOrderList">汽车票订单</div>
+                <div class="searchBox">
+                	<select class="orderState f">
+                    	<option>订单状态</option>
+                        <option></option>
+                        <option></option>
+                    </select>
+                    <div class="orderTime f">预定时间</div>
+                    <div class="inputBox f">
+                    	<input value="2015-08-08" />
+                        <span>——</span>
+                        <input value="2015-08-09" />
+                    </div>
+                    <input class="orderOrName f" placeholder="订单号/乘客姓名" />
+                    <input class="searchBtn f" type="button" value="查  询" />
+                </div>
+                <ul class="switchOrder">
+                	<li class="switchClass">未完成订单</li>
+                    <li class="switchColor">已完成订单</li>
+                </ul>
+                <div class="payUnFinished">
+                    <!--未完成订单-->
+                    <div class="orderGroup ">
+                        <div class="orderHead">
+                            <div><input class="orderCheckbox" type="checkbox" />订单号：<span>1234567898765</span></div>
+                            <div>预定日期：<span>2015-08-12  09:18:56</span></div>
+                        </div>
+                        <ul class="listGroup">
+                            <li class="list_1">车次信息</li>
+                            <li class="list_2">旅客姓名</li>
+                            <li class="list_3">出发日期</li>
+                            <li class="list_4">票款金额</li>
+                            <li class="list_5">订单状态</li>
+                            <li class="list_6">操作</li>
+                        </ul>
+                        <ul class="listInfo">
+                            <li class="list_1">
+                                <div>北京（北京汽车总站）</div>
+                                <div class="busSta"><span class="busStaImg"></span>流水车</div>
+                                <div>天津（天津汽车总站）</div>
+                            </li>
+                            <li class="list_2 listName">张海建</li>
+                            <li class="list_3 listTime">2015-09-16  09:18</li>
+                            <li class="list_4 listCharge">￥152</li>
+                            <li class="list_5">
+                                <div class="stateCol">待支付</div>
+                                <a class="colBlue_1" href="orderDetails_5.html">[订单详情]</a>
+                            </li>
+                            <li class="list_6">
+                            	<input class="payBtn" type="button" value="支付" />
+                                <div class="abolishOrder">[取消订单]</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="orderGroup ">
+                        <div class="orderHead">
+                            <div><input class="orderCheckbox" type="checkbox" />订单号：<span>1234567898765</span></div>
+                            <div>预定日期：<span>2015-08-12  09:18:56</span></div>
+                        </div>
+                        <ul class="listGroup">
+                            <li class="list_1">车次信息</li>
+                            <li class="list_2">旅客姓名</li>
+                            <li class="list_3">出发日期</li>
+                            <li class="list_4">票款金额</li>
+                            <li class="list_5">订单状态</li>
+                            <li class="list_6">操作</li>
+                        </ul>
+                        <ul class="listInfo">
+                            <li class="list_1">
+                                <div>北京（北京汽车总站）</div>
+                                <div class="busSta"><span class="busStaImg"></span>流水车</div>
+                                <div>天津（天津汽车总站）</div>
+                            </li>
+                            <li class="list_2 listName">张海建</li>
+                            <li class="list_3 listTime">2015-09-16  09:18</li>
+                            <li class="list_4 listCharge">￥152</li>
+                            <li class="list_5">
+                                <div class="stateCol">购票中</div>
+                                <a class="colBlue_1" href="orderDetails_4.html">[订单详情]</a>
+                            </li>
+                            <li class="list_6"></li>
+                        </ul>
+                    </div>
+                    <div class="orderGroup ">
+                        <div class="orderHead">
+                            <div><input class="orderCheckbox" type="checkbox" />订单号：<span>1234567898765</span></div>
+                            <div>预定日期：<span>2015-08-12  09:18:56</span></div>
+                        </div>
+                        <ul class="listGroup">
+                            <li class="list_1">车次信息</li>
+                            <li class="list_2">旅客姓名</li>
+                            <li class="list_3">出发日期</li>
+                            <li class="list_4">票款金额</li>
+                            <li class="list_5">订单状态</li>
+                            <li class="list_6">操作</li>
+                        </ul>
+                        <ul class="listInfo">
+                            <li class="list_1">
+                                <div>北京（北京汽车总站）</div>
+                                <div class="busSta"><span class="busStaImg"></span>流水车</div>
+                                <div>天津（天津汽车总站）</div>
+                            </li>
+                            <li class="list_2 listName">张海建</li>
+                            <li class="list_3 listTime">2015-09-16  09:18</li>
+                            <li class="list_4 listCharge">￥152</li>
+                            <li class="list_5">
+                                <div class="stateCol">待支付</div>
+                                <a class="colBlue_1">[订单详情]</a>
+                            </li>
+                            <li class="list_6">
+                            	<input class="payBtn" type="button" value="支付" />
+                                <div class="abolishOrder">[取消订单]</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="orderGroup ">
+                        <div class="orderHead">
+                            <div><input class="orderCheckbox" type="checkbox" />订单号：<span>1234567898765</span></div>
+                            <div>预定日期：<span>2015-08-12  09:18:56</span></div>
+                        </div>
+                        <ul class="listGroup">
+                            <li class="list_1">车次信息</li>
+                            <li class="list_2">旅客姓名</li>
+                            <li class="list_3">出发日期</li>
+                            <li class="list_4">票款金额</li>
+                            <li class="list_5">订单状态</li>
+                            <li class="list_6">操作</li>
+                        </ul>
+                        <ul class="listInfo">
+                            <li class="list_1">
+                                <div>北京（北京汽车总站）</div>
+                                <div class="busSta"><span class="busStaImg"></span>流水车</div>
+                                <div>天津（天津汽车总站）</div>
+                            </li>
+                            <li class="list_2 listName">张海建</li>
+                            <li class="list_3 listTime">2015-09-16  09:18</li>
+                            <li class="list_4 listCharge">￥152</li>
+                            <li class="list_5">
+                                <div class="stateCol">购票中</div>
+                                <a class="colBlue_1">[订单详情]</a>
+                            </li>
+                            <li class="list_6"></li>
+                        </ul>
+                    </div>
+                    <div class="orderGroup ">
+                        <div class="orderHead">
+                            <div><input class="orderCheckbox" type="checkbox" />订单号：<span>1234567898765</span></div>
+                            <div>预定日期：<span>2015-08-12  09:18:56</span></div>
+                        </div>
+                        <ul class="listGroup">
+                            <li class="list_1">车次信息</li>
+                            <li class="list_2">旅客姓名</li>
+                            <li class="list_3">出发日期</li>
+                            <li class="list_4">票款金额</li>
+                            <li class="list_5">订单状态</li>
+                            <li class="list_6">操作</li>
+                        </ul>
+                        <ul class="listInfo">
+                            <li class="list_1">
+                                <div>北京（北京汽车总站）</div>
+                                <div class="busSta"><span class="busStaImg"></span>流水车</div>
+                                <div>天津（天津汽车总站）</div>
+                            </li>
+                            <li class="list_2 listName">张海建</li>
+                            <li class="list_3 listTime">2015-09-16  09:18</li>
+                            <li class="list_4 listCharge">￥152</li>
+                            <li class="list_5">
+                                <div class="stateCol">待支付</div>
+                                <a class="colBlue_1">[订单详情]</a>
+                            </li>
+                            <li class="list_6">
+                            	<input class="payBtn" type="button" value="支付" />
+                                <div class="abolishOrder">[取消订单]</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>    
+                <div class="padFinished">
+                    <!--已完成订单-->
+                    <div class="orderGroup ">
+                        <div class="orderHead">
+                            <div><input class="orderCheckbox" type="checkbox" />订单号：<span>1234567898765</span></div>
+                            <div>预定日期：<span>2015-08-12  09:18:56</span></div>
+                        </div>
+                        <ul class="listGroup">
+                            <li class="list_1">车次信息</li>
+                            <li class="list_2">旅客姓名</li>
+                            <li class="list_3">出发日期</li>
+                            <li class="list_4">票款金额</li>
+                            <li class="list_5">订单状态</li>
+                            <li class="list_6">操作</li>
+                        </ul>
+                        <ul class="listInfo">
+                            <li class="list_1">
+                                <div>北京（北京汽车总站）</div>
+                                <div class="busSta"><span class="busStaImg"></span>流水车</div>
+                                <div>天津（天津汽车总站）</div>
+                            </li>
+                            <li class="list_2 listName">张海建</li>
+                            <li class="list_3 listTime">2015-09-16  09:18</li>
+                            <li class="list_4 listCharge">￥152</li>
+                            <li class="list_5">
+                                <div class="stateCol">已完成</div>
+                                <a class="colBlue_1" href="orderDetails_2.html">[订单详情]</a>
+                            </li>
+                            <li class="list_6"></li>
+                        </ul>
+                    </div>
+                    <div class="orderGroup ">
+                        <div class="orderHead">
+                            <div><input class="orderCheckbox" type="checkbox" />订单号：<span>1234567898765</span></div>
+                            <div>预定日期：<span>2015-08-12  09:18:56</span></div>
+                        </div>
+                        <ul class="listGroup">
+                            <li class="list_1">车次信息</li>
+                            <li class="list_2">旅客姓名</li>
+                            <li class="list_3">出发日期</li>
+                            <li class="list_4">票款金额</li>
+                            <li class="list_5">订单状态</li>
+                            <li class="list_6">操作</li>
+                        </ul>
+                        <ul class="listInfo">
+                            <li class="list_1">
+                                <div>北京（北京汽车总站）</div>
+                                <div class="busSta"><span class="busStaImg"></span>流水车</div>
+                                <div>天津（天津汽车总站）</div>
+                            </li>
+                            <li class="list_2 listName">张海建</li>
+                            <li class="list_3 listTime">2015-09-16  09:18</li>
+                            <li class="list_4 listCharge">￥152</li>
+                            <li class="list_5">
+                                <div class="stateCol">已取消</div>
+                                <a class="colBlue_1" href="orderDetails_3.html">[订单详情]</a>
+                            </li>
+                            <li class="list_6"></li>
+                        </ul>
+                    </div>
+                    <div class="orderGroup ">
+                        <div class="orderHead">
+                            <div><input class="orderCheckbox" type="checkbox" />订单号：<span>1234567898765</span></div>
+                            <div>预定日期：<span>2015-08-12  09:18:56</span></div>
+                        </div>
+                        <ul class="listGroup">
+                            <li class="list_1">车次信息</li>
+                            <li class="list_2">旅客姓名</li>
+                            <li class="list_3">出发日期</li>
+                            <li class="list_4">票款金额</li>
+                            <li class="list_5">订单状态</li>
+                            <li class="list_6">操作</li>
+                        </ul>
+                        <ul class="listInfo">
+                            <li class="list_1">
+                                <div>北京（北京汽车总站）</div>
+                                <div class="busSta"><span class="busStaImg"></span>流水车</div>
+                                <div>天津（天津汽车总站）</div>
+                            </li>
+                            <li class="list_2 listName">张海建</li>
+                            <li class="list_3 listTime">2015-09-16  09:18</li>
+                            <li class="list_4 listCharge">￥152</li>
+                            <li class="list_5">
+                                <div class="stateCol">超时取消</div>
+                                <a class="colBlue_1" href="orderDetails_3.html">[订单详情]</a>
+                            </li>
+                            <li class="list_6"></li>
+                        </ul>
+                    </div>
+                    <div class="orderGroup ">
+                        <div class="orderHead">
+                            <div><input class="orderCheckbox" type="checkbox" />订单号：<span>1234567898765</span></div>
+                            <div>预定日期：<span>2015-08-12  09:18:56</span></div>
+                        </div>
+                        <ul class="listGroup">
+                            <li class="list_1">车次信息</li>
+                            <li class="list_2">旅客姓名</li>
+                            <li class="list_3">出发日期</li>
+                            <li class="list_4">票款金额</li>
+                            <li class="list_5">订单状态</li>
+                            <li class="list_6">操作</li>
+                        </ul>
+                        <ul class="listInfo">
+                            <li class="list_1">
+                                <div>北京（北京汽车总站）</div>
+                                <div class="busSta"><span class="busStaImg"></span>流水车</div>
+                                <div>天津（天津汽车总站）</div>
+                            </li>
+                            <li class="list_2 listName">张海建</li>
+                            <li class="list_3 listTime">2015-09-16  09:18</li>
+                            <li class="list_4 listCharge">￥152</li>
+                            <li class="list_5">
+                                <div class="stateCol">购票失败</div>
+                                <a class="colBlue_1" href="orderDetails_6.html">[订单详情]</a>
+                            </li>
+                            <li class="list_6"></li>
+                        </ul>
+                    </div>
+                </div>    
+                <div class="searchAllOrDel"><input class="searchAll" type="checkbox" />全选<a class="delOrder colBlue">[删除]</a></div>
+                <div class="pageChanged">
+                    <span class="pageClicked">1</span>
+                    <span class="pageUnClicked">2</span>
+                    <span class="pageUnClicked">3</span>
+                    <span class="pageUnClicked">4</span>
+                    <span class="pageUnClicked">5</span>
+				</div>  
+            </div>
+        </div>
+	</div>                                     
+</div>
+<iframe src="../bottom.html" height="250" width="100%" frameborder="0" scrolling="auto" hspace="0"></iframe>
+<div class="zhezhao"></div>
+<div class="popInfo">
+	<div class="abolish">取消订单</div>
+    <div class="abolishOrNot">您确定要取消订单吗？</div>
+    <div class="abolishBtns">
+    	<input class="abolishBtns_1" type="button" value="取消" />
+        <input class="abolishBtns_2" type="button" value="不取消" />
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,1283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="../style/bus_search.css" rel="stylesheet" type="text/css" />
+<link href="../style/base.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/jquery.js" ></script>
+<script type="text/javascript" src="../js/bus_search.js"></script>
+</head>
+
+<body>
+<div id="header">
+  <div class="tools">
+    <font class="f">您好，欢迎光临旅途网！</font>
+    <img class="f" src="../images/weibo.png" width="127" height="34" style="margin-top:3px;" />
+    <span class="f pt10"><input type="button" class="allbnt bntlogintop" value="注册" /><input type="button" class="allbnt bntlogintop" value="登录" /></span>
+    <span class="r tel">010-88259919</span>
+    <span class="r weixin"><a href="#">微信我们</a></span><span class="r name"><a href="#">订单查询</a></span><span class="r name"><a href="#">个人中心</a></span>
+  </div>
+  <div class="c"></div> 
+  <div class="header_top">
+     <div class="header_main">
+          <div class="f"><img src="../images/logo.png" width="200" height="76" /></div>
+          <div class="f nav">
+             <ul>
+             <li class="on"><a href="index.html" target="_blank">首页</a></li>
+             <li><a href="train/list.html" target="_blank">火车票查询</a></li>
+             <li><a href="">高铁动车</a></li>                                  
+             <li><a href="">列车时刻</a></li>
+             <li><a href="hotel/hotel.html" target="_blank">酒店预订</a></li>
+             <li><a href="">手机旅途</a></li>
+             </ul>
+          </div>
+          <div class="disno">
+              <div class="r"><input type="button" class="bntseatop" value="搜索" /></div>
+              <div class="r seach"><input type="text" class="textseatop" value="目的地|游记攻略" /><input type="text" class="textseartop" value="目的地游记" /></div>
+          </div>
+          <div class="c"></div>
+     </div>
+  </div>
+</div>
+<!--以上是top-->
+<div class="bjbj"></div><!--为了显示出木质材料-->
+<div class="bjbj_1"></div>
+<!--下边是正文-->
+<div class="mainBigImg">
+	<div class="mainInfoTop">
+    	<div class="startSta"><input type="text" placeholder="出发地"></div>
+        <div class="changeImg"> </div>
+        <div class="endSta"><input type="text" placeholder="目的地"></div>
+        <div class="pickTime">
+        	<div class="riqi">日期</div>
+            <div class="timeInput"><input type="text" value="2015/01/09"></div>
+            <div class="datePick"></div>
+        </div>
+        <div class="search"><input type="button" value="查 询"  /></div>
+    </div>
+    <div class="mainInfoMiddle">
+    	<div class="leftInfo">
+        	<div class="xingqi">
+             <div class="dateBox">
+                <div class="jtleft"></div>
+                <div class="f date">
+                  <ul>
+                    <li class="on">
+                     <div>12-09<span>星期一</span></div>
+                    </li>
+                    <li>
+                     <div>12-10星期二</div>
+                    </li>
+                    <li>
+                     <div>12-11星期三</div>
+                    </li>
+                    <li >
+                      <div>12-12星期四</div>
+                    </li>  
+                    <li>
+                     <div>12-13星期五</div>
+                    </li>
+                    <li>
+                      <div>12-14星期六</div>
+                    </li>
+                    <li>
+                      <div>12-15星期日</div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="jtright"></div>
+                <div class="c"></div>
+             </div>
+             <div class="mt10 posRel">
+             	 <div class="shaixuan" style="display:none;">
+                	<div class="shaixuanFont">更多筛选条件</div>
+                	<div class="shaixuanImg"></div>
+             	 </div>             
+                 <div class="category">
+                       <div class="f startTime">发车时间</div>
+                       <div class="f">
+                          <div class="f mr15"><a href="#" class="unlimited">不限</a></div>
+                          <ul>
+                           <li><input name="" type="checkbox" value="" />上午(6-12点)</li>
+                           <li><input name="" type="checkbox" value="" />下午(12-18点)</li>
+                           <li><input name="" type="checkbox" value="" />晚上(18-24点)</li>
+                          </ul>
+                       </div>
+                       <div class="c"></div>
+                 </div>
+                 <div class="category">
+                       <div class="f endTime">始发站点</div>
+                       <div class="f">
+                          <div class="f mr15"><a href="#" class="unlimited">不限</a></div>
+                          <ul>
+                           <li><input name="" type="checkbox" value="" />北京站</li>
+                           <li><input name="" type="checkbox" value="" />北京西站</li>
+                           <li><input name="" type="checkbox" value="" />北京南站</li>
+                           <li><input name="" type="checkbox" value="" />天津站</li>
+                           <li><input name="" type="checkbox" value="" />天津南站</li>
+                           <li><input name="" type="checkbox" value="" />乌鲁木齐站</li>
+                           <li><input name="" type="checkbox" value="" />河北站</li>
+                          </ul>
+                       </div>
+                       <div class="c"></div>
+                 </div>
+             </div>
+            </div> 
+            <div>
+            <div class="main-so">
+             <!--asassa-->
+             <div class="busBanner">
+             	<div class="W12 lh30">发车时间</div>
+                <div class="qiehuan">
+                    <div class="limitJiantou"></div>
+                    <div class="limitJiantou1"></div>
+                </div>
+                <div class="W29 lh30">发站/到站</div>
+                <div class="W23 lh30">车型/车次</div>
+                <div class="W23 lh30">参考票价</div>
+                <div class="W13 lh30">订票</div>
+             </div>
+             <!--列表-->
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <!--列表-->
+             <div class="pageChanged">
+             	<span class="pageUnClicked">1</span>
+                <span class="pageUnClicked">2</span>
+                <span class="pageUnClicked">3</span>
+                <span class="pageUnClicked">4</span>
+                <span class="pageUnClicked">5</span>
+             </div>     
+           </div> 
+            <div class="main-so">
+             <!--asassa-->
+             <div class="busBanner">
+             	<div class="W12 lh30">发车时间</div>
+                <div class="qiehuan">
+                    <div class="limitJiantou"></div>
+                    <div class="limitJiantou1"></div>
+                </div>
+                <div class="W29 lh30">发站/到站</div>
+                <div class="W23 lh30">车型/车次</div>
+                <div class="W23 lh30">参考票价</div>
+                <div class="W13 lh30">订票</div>
+             </div>
+             <!--列表-->
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <!--列表-->
+             <div class="pageChanged">
+             	<span class="pageUnClicked">1</span>
+                <span class="pageUnClicked">2</span>
+                <span class="pageUnClicked">3</span>
+                <span class="pageUnClicked">4</span>
+                <span class="pageUnClicked">5</span>
+             </div>     
+           </div>  
+            <div class="main-so">
+             <!--asassa-->
+             <div class="busBanner">
+             	<div class="W12 lh30">发车时间</div>
+                <div class="qiehuan">
+                    <div class="limitJiantou"></div>
+                    <div class="limitJiantou1"></div>
+                </div>
+                <div class="W29 lh30">发站/到站</div>
+                <div class="W23 lh30">车型/车次</div>
+                <div class="W23 lh30">参考票价</div>
+                <div class="W13 lh30">订票</div>
+             </div>
+             <!--列表-->
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <!--列表-->
+             <div class="pageChanged">
+             	<span class="pageUnClicked">1</span>
+                <span class="pageUnClicked">2</span>
+                <span class="pageUnClicked">3</span>
+                <span class="pageUnClicked">4</span>
+                <span class="pageUnClicked">5</span>
+             </div>     
+           </div> 
+            <div class="main-so">
+             <!--asassa-->
+             <div class="busBanner">
+             	<div class="W12 lh30">发车时间</div>
+                <div class="qiehuan">
+                    <div class="limitJiantou"></div>
+                    <div class="limitJiantou1"></div>
+                </div>
+                <div class="W29 lh30">发站/到站</div>
+                <div class="W23 lh30">车型/车次</div>
+                <div class="W23 lh30">参考票价</div>
+                <div class="W13 lh30">订票</div>
+             </div>
+             <!--列表-->
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <!--列表-->
+             <div class="pageChanged">
+             	<span class="pageUnClicked">1</span>
+                <span class="pageUnClicked">2</span>
+                <span class="pageUnClicked">3</span>
+                <span class="pageUnClicked">4</span>
+                <span class="pageUnClicked">5</span>
+             </div>     
+           </div>  
+            <div class="main-so">
+             <!--asassa-->
+             <div class="busBanner">
+             	<div class="W12 lh30">发车时间</div>
+                <div class="qiehuan">
+                    <div class="limitJiantou"></div>
+                    <div class="limitJiantou1"></div>
+                </div>
+                <div class="W29 lh30">发站/到站</div>
+                <div class="W23 lh30">车型/车次</div>
+                <div class="W23 lh30">参考票价</div>
+                <div class="W13 lh30">订票</div>
+             </div>
+             <!--列表-->
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <!--列表-->
+             <div class="pageChanged">
+             	<span class="pageUnClicked">1</span>
+                <span class="pageUnClicked">2</span>
+                <span class="pageUnClicked">3</span>
+                <span class="pageUnClicked">4</span>
+                <span class="pageUnClicked">5</span>
+             </div>     
+           </div> 
+            <div class="main-so">
+             <!--asassa-->
+             <div class="busBanner">
+             	<div class="W12 lh30">发车时间</div>
+                <div class="qiehuan">
+                    <div class="limitJiantou"></div>
+                    <div class="limitJiantou1"></div>
+                </div>
+                <div class="W29 lh30">发站/到站</div>
+                <div class="W23 lh30">车型/车次</div>
+                <div class="W23 lh30">参考票价</div>
+                <div class="W13 lh30">订票</div>
+             </div>
+             <!--列表-->
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="noTicket"  value="无票"/></div>
+             </div>
+             <div class="busTicketInfo">
+             	<div class="W12 ticketTime">06:18</div>
+                <div class="W29 station">
+                	<div class="startArea">
+                    	<span class="startStaImg"></span>
+                        <a class="startStation" style="line-height:10px;">赵公口客运站</a>
+                    </div>
+                    <div class="endArea">
+                    	<span class="endStaImg"></span>
+                        <a class="endStation">赵公口客运站</a>
+                    </div>
+                </div>
+                <div class="W23 busName">普通/BWH505</div>
+                <div class="W23 ticketPay">￥<span>125</span></div>
+                <div class="W13"><input type="button" class="hasTicket"  value="有票" onclick="location='bus_article.html '"/></div>
+             </div>
+             <!--列表-->
+             <div class="pageChanged">
+             	<span class="pageUnClicked">1</span>
+                <span class="pageUnClicked">2</span>
+                <span class="pageUnClicked">3</span>
+                <span class="pageUnClicked">4</span>
+                <span class="pageUnClicked">5</span>
+             </div>     
+           </div> 
+            </div>
+        </div>
+       	<div class="rightInfo">
+        	<div class="borderBox">
+            	<div class="goupiao">
+                	<div class="shouldKnow"></div>
+                    <div class="goupiao_1">购票须知</div>
+                </div>
+                <div class="shouldKnow_1">
+                	<div class="shouldKnow_3">购票提醒：</div>
+                    <div class="shouldKnow_2">旅途网为注册会员提供在线购票服务，请您先注册成为会员再购票。请您在注册时认真填写各项信息，如因您填写的信息不准确造成损失，旅途网不承担责任。 </div>
+                </div>
+                <div class="shouldKnow_1">
+                	<div class="shouldKnow_3">预售期限：</div>
+                    <div class="shouldKnow_2">预售3-15天以内(含当天)，各车站预售期不同，以在网站实际查询到的班次信息为准。</div>
+                </div>
+               	<div class="shouldKnow_1">
+                	<div class="shouldKnow_3">发车时间：</div>
+                    <div class="shouldKnow_2">部分客运站车次临时调整，可能会导致发车时间不准确，建议您在前往车站前先进行电话联系。</div>
+                </div>
+                <div class="shouldKnow_1">
+                	<div class="shouldKnow_3">取票乘车：</div>
+                    <div class="shouldKnow_2">请您预留充足的时间前往乘车站取票，凭取票信息和身份证件到乘车站自助取票机或服务专窗取票，逾期不取，责任自负。</div>
+                </div>
+            </div>
+            <div class="history">
+            	<div class="chaxun">
+                	<div class="chaxunImg"></div>
+                    <div class="goupiao_1">查询历史</div>
+                </div>
+                <div class="searchHistoryList">
+                	<div class="searchHistory">
+                    	<div class="searchHistory_1">北京-上海</div>
+                        <div class="searchHistory_2">15分钟前</div>
+                    </div>
+                    <div class="searchHistory">
+                    	<div class="searchHistory_1">北京-上海</div>
+                        <div class="searchHistory_2">15分钟前</div>
+                    </div>
+                    <div class="searchHistory">
+                    	<div class="searchHistory_1">北京-上海</div>
+                        <div class="searchHistory_2">15分钟前</div>
+                    </div>
+                    <div class="searchHistory">
+                    	<div class="searchHistory_1">北京-上海</div>
+                        <div class="searchHistory_2">15分钟前</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+<iframe src="../bottom.html" height="250" width="100%" frameborder="0" scrolling="auto" hspace="0"></iframe>
+</body>
+</html>

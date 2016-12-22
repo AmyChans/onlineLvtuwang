@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+#zixun{ width:1190px; margin:0 auto; padding-top:15px;}
+
+#zixun .left{ width:857px;}
+#zixun .hoteltop{background:#fff; border:1px solid #e0e0e0; padding-bottom:15px;}
+#zixun .listctop{ padding:10px 30px 0 30px; border-bottom:1px solid #e6e6e6; height:41px; line-height:31px;} 
+#zixun .listsanjiao{ width:23px; height:7px; line-height:7px; background-image:url(../images/index.png); background-position:-310px 0; position:absolute; top:45px; left:68px; }
+#zixun .mingxi{ margin:5px 25px 0 45px; line-height:30px; }
+#zixun .mingxi a{ color:#0a6b93;}
+#zixun .mains{ margin:25px 40px; line-height:36px; width:770px;}
+#zixun .mains h1{ text-align:center; line-height:60px;}
+#zixun .mains p{ text-indent:2em}
+
+
+#zixun .right{ width:320px;}
+
+#zixun .helpleft{ width:280px;}
+#zixun .helpright{ width:897px;}
+#zixun .ques{line-height:40px; height:40px; padding-left:40px; background:#f0f0f0; margin-top:10px;  font-size:14px; font-weight:bold}
+#zixun .helptop{ background-image:url(../images/member.png); background-position:0 -130px; height:51px; line-height:51px;}
+#zixun .helpmain{background:#fff; border:1px solid #e0e0e0; padding-bottom:15px; border-top:none; padding-top:1px;}
+
+
+
+
+

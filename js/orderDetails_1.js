@@ -1,0 +1,23 @@
+// JavaScript Document	
+$(function(){
+	$(".switchOrder").children().eq(0).on("click",function(){
+			$(".payUnFinished").css("display","block");
+			$(".padFinished").css("display","none");
+			$(this).removeClass("switchColor").addClass("switchClass");
+			$(this).siblings().removeClass("switchClass").addClass("switchColor");				
+	});
+	$(".switchOrder").children().eq(1).on("click",function(){
+			$(".payUnFinished").css("display","none");
+			$(".padFinished").css("display","block");
+			$(this).removeClass("switchColor").addClass("switchClass");
+			$(this).siblings().removeClass("switchClass").addClass("switchColor");						
+	});	
+	$(".abolishOrder").on("click",function(){
+		$(".zhezhao").show();
+		$(".popInfo").show();
+	});
+	$(".abolishBtns_2").on("click",function(){
+		$(".zhezhao").hide();
+		$(".popInfo").hide();
+	});
+});

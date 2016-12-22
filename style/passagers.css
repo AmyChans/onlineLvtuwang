@@ -1,0 +1,258 @@
+@charset "utf-8";
+/* CSS Document */
+
+.icomy,.icopersonal,.icoorder,.icointegral{ background:url(../images/memberico.png) no-repeat;}	
+.memberleft{ width:190px; border:1px solid #d9e5f1; background:#fcfcfc;}
+.memberlefttitle{ height:45px; line-height:45px; background:#63aae5; padding-left:20px; color:#fff; font-size:16px; font-weight:bold;} 
+.icomy{ background-position:0px 0px; padding-left:24px;}
+.memberleft dl{ padding:10px 20px; line-height:30px; border-top:1px solid #d9e5f1;}
+.memberleft dt{font-size:16px; font-weight:bold; font-weight:bold; color:#3895e2;}
+.memberleft dd{ padding-left:28px;}
+.memberleft a{ font-size:14px;}
+.icopersonal{ background-position:0px -30px; padding-left:24px;}
+.icoorder{ background-position:0px -60px; padding-left:24px;}
+.icointegral{ background-position:0px -90px; padding-left:24px;}
+
+.memberright{ width:900px; margin-left:20px;}
+.crumbs{ line-height:30px; height:30px;font-size:14px;}
+.membermain{ background:#fff; padding:5px 20px 15px 20px;}
+.maintop{ border-bottom:1px solid #d6d6d6; padding:0 5px; line-height:40px;}
+.membermain td{ line-height:30px; padding-left:5px; font-size:14px}
+
+.middle{
+	width:1190px;
+	margin:0 auto;
+	overflow:hidden;
+	padding-top:16px;
+	}
+.crumbs a{
+	font-size:14px;
+	}	
+.colBlue{
+	color:#3895e2;
+	}	
+.colBlue:hover{
+	text-decoration: underline;
+	color:#3895e2;
+	}	
+.memberleft{
+	margin-left:50px;
+	}
+.busOrderBox{
+	border:1px solid #d6d6d6;
+	margin-top:10px;
+	}
+.limitWidth{
+	width:850px;
+	margin:0 auto;
+	}
+.busOrderList{
+	padding:20px 0 10px 10px;
+	color:#ff4e00;
+	font-size:16px;
+	border-bottom:1px solid #eaeaea;
+	}
+.searchAllOrDel{
+	margin: 20px auto;
+	overflow:hidden;
+	width:740px;
+	}
+.delOrder{
+	margin-left: 10px;
+	}
+.searchAll{
+	margin:-2px 2px 0 0;
+	}
+.pageChanged{
+	text-align: center;
+	margin:60px 0 46px 0;
+	}
+.pageChanged span{
+	margin:0 6px;
+	width:20px;
+	height:20px;
+	display: inline-block;
+	color:#fff;
+	line-height:20px;
+	cursor:pointer;
+	}
+.pageChanged span:hover{
+	background:#3895E2;
+}
+.pageClicked{
+	background:#3895e2;
+	}
+.pageUnClicked{
+	background:#ccc;
+	}									
+.searchBox{
+	margin-top:17px;
+	}
+.passagerName{
+	font-size:14px;
+	color:#666;
+	}
+.iptPasName{
+	margin:-6px 70px 0 18px;
+	width:160px;
+	height:30px;
+	color:#666;
+	font-size:14px;
+	line-height:30px;
+	border:1px solid #ccc;
+	padding-left: 10px;
+	}
+.btnPasName{
+	margin-top:-6px;
+	width: 100px;
+	height: 32px;
+	color: #fff;
+	background: #f9ad39;
+	border-radius: 4px;
+	border: none;
+	font-size: 14px;
+	}
+.pasList{
+	color:#66aeea;
+	font-size:14px;
+	margin:16px 0 0 20px;
+	}
+.listBox{
+	width:840px;
+	margin: 0 auto 30px auto;
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-top:2px solid #66aeea;
+	color: #666;	
+	}
+.limitListBox{
+	background:#dfeefb;
+	}	
+.listBoxUl{
+	overflow:hidden;
+	margin:0 auto;
+	width:820px;	
+	}	
+.listBoxUl li{
+	float:left;
+	text-align:center;
+	width:20%;
+	}	
+.passagerList{
+	width:820px;
+	border-bottom:1px dashed #ccc;
+	overflow:hidden;
+	margin:6px auto 10px auto;
+	}
+.passagerList li{
+	float:left;
+	width:20%;
+	text-align:center;
+	}
+.passagerList li a{
+	color:#3895e2;
+	}
+.passagerList li a:hover{
+	text-decoration: underline;
+	}		
+.addPasBtn{
+	background:#3995e2;
+	width:110px;
+	height:26px;
+	color:#fff;
+	font-size:14px;
+	line-height:26px;
+	border:none;
+	border-radius:4px;
+	}
+.addPasBtn:hover{
+	background:#358AD1;
+	}
+.zhezhao{
+	width:100%;
+	height:100%;
+	background:#000;
+	filter:alpha(opacity=30);
+	-moz-opacity:0.3;
+	-khtml-opacity: 0.3;
+	opacity: 0.3;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:99;
+	display:none;
+	}
+.popInfo_1,.popInfo_2{
+	width: 520px;
+	height: 360px;
+	background: #fff;
+	border: 1px solid #999;
+	z-index: 100;
+	position: fixed;
+	top: 30%;
+	left: 50%;
+	margin-left: -260px;
+	display: none;
+	}
+.iptInf{
+	overflow:hidden;
+	width:500px;
+	margin:18px auto 0 auto;
+	}
+.popInfoPas{
+	color:#ff4e00;
+	font-size:20px;
+	margin:22px auto 0 auto;
+	width:500px;
+	padding-bottom:20px;
+	border-bottom:1px dashed #ccc;
+	}
+.iptInfLeft{
+	font-size:14px;
+	color:#666;
+	float:left;
+	width:120px;
+	text-align:right;
+	margin-left:66px;
+	margin-top:4px;
+	}
+.idType{
+	width: 204px;
+	height: 34px;
+	color: #666;
+	line-height:30px;
+	padding-left:10px;
+	}	
+.iptInfoName,.iptInfoId,.iptInfoNum{
+	width: 190px;
+	height: 30px;
+	color: #666;
+	line-height:30px;
+	padding-left:10px;
+	}
+.popBtn_1{
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	border: none;
+	color: #fff;
+	border-radius: 4px;
+	font-size: 14px;
+	background: #f9ad39;
+	}
+.popBtn_2{
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	color: #666;
+	border-radius: 4px;
+	font-size: 14px;
+	background: #fff;
+	margin-left:30px;
+	}
+.popBtn{
+	width: 230px;
+	margin: 28px auto 0 auto;
+	}																										

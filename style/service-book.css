@@ -1,0 +1,221 @@
+@charset "utf-8";
+/* CSS Document */
+.allbj{
+	background:none;
+}
+.bjbj{
+	width:100%;
+	height:15px;
+	background:url(../busimg/bjmiddle.png) repeat-x;
+}
+.service-box{
+	width:1206px;
+	min-height:600px;
+	margin:20px auto;
+	overflow:hidden;
+}
+.s-l{
+	width:200px;
+	min-height:400px;
+	border:1px solid #CCC;
+	float:left;
+}
+.s-l-hd{
+	width:200px;
+	height:45px;
+	background:#3895e2;
+}
+.s-tit{
+	width:150px;
+	height:45px;
+	line-height:45px;
+	padding-left:50px;
+	font-weight:bold;
+	color:#FFF;
+	font-size:16px;
+	background:url(../busimg/public/service.png) no-repeat 20px 15px;
+}
+.s-l-bd{
+	width:200px;
+	min-height:300px;
+	padding:20px 0;
+}
+.s-l-bd ul{
+	min-height:130px;
+}
+.s-l-bd li{
+	width:150px;
+	height:30px;
+	padding-left:50px;
+}
+.s-l-bd li a{
+	color:#666;
+	font-size:16px;
+}
+.s-l-bd li a:hover{
+	color:#3895e2;
+}
+.s-l-bd .bd-li{
+	background:url(../busimg/public/service1.png) no-repeat 20px 4px;
+}
+.s-l-bd .bd-li a,.s-l-bd .bd-li1 a{
+	color:#3895e2;
+	font-weight:bold;
+}
+.s-l-bd .bd-li1{
+	background:url(../busimg/public/service2.png) no-repeat 20px 4px;
+}
+
+
+.s-r{
+	width:960px;
+	min-height:500px;
+	float:right;
+}
+.s-r-tit{
+	width:960px;
+	height:45px;
+	line-height:45px;
+	color:#666;
+	font-size:14px;
+}
+.s-r-tit a{
+	color:#3895e2;
+	font-size:14px;
+}
+.s-r-tit a:hover{
+	text-decoration:underline;
+}
+.s-r-main{
+	width:960px;
+	min-height:500px;
+}
+.r-main-hd{
+	width:960px;
+	height:30px;
+	line-height:30px;
+	color:#3895e2;
+	font-size:18px;
+	border-bottom:2px solid #3895e2;
+	margin-bottom:20px;
+}
+.r-main-bd{
+	width:960px;
+	min-height:500px;
+	padding:0 10px;
+}
+.r-main-bd li{
+	width:940px;
+	min-height:60px;
+	border-bottom:1px dashed #CCCCCC;
+	padding:20px 0;
+	color:#666;
+	font-size:14px;
+}
+.r-main-bd li p{
+	min-height:30px;
+	width:910px;
+	padding-left:30px;
+}
+.r-main-bd li p.p-up{
+	background:url(../busimg/public/question.png) no-repeat 0 4px;
+}
+.r-main-bd li p.p-down{
+	background:url(../busimg/public/answer.png) no-repeat 0 4px;
+}
+.s-fy{
+	width:960px;
+	height:20px;
+	margin-top:20px;
+	padding:15px 0;
+}
+.s-fy ul{
+	width:200px;
+	height:20px;
+	margin:0 auto;
+}
+.s-fy ul li{
+	float:left;
+	margin:0 10px;
+	width:20px;
+	height:20px;
+	background:#CCC;
+	color:#666;
+	line-height:20px;
+	text-align:center;
+	cursor:pointer;
+}
+.s-fy ul li.s-now{
+	background:#3895e2;
+	color:#FFF;
+}
+.s-fy ul li:hover{
+	background:#3895e2;
+	color:#FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

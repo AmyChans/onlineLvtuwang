@@ -1,0 +1,556 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bjbj{
+	background:url(../images/bjmiddle.png) repeat-x;
+	height:18px;
+	}
+.mainBigImg{
+	min-height:1000px;
+	}
+
+.mainInfo{
+	width:100%;
+	margin: auto;
+	}
+.bookArea{
+	overflow:hidden;
+	position:relative;
+	height:400px;
+	}
+.bookArea ul{
+	width:7680px;
+	height:400px;
+	background-color:#930;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.bookArea ul li{
+	float:left;
+	height:400px;
+	width:1920px;
+}
+
+
+.borderTicket{
+	width:488px;
+	height:340px;
+	background-image:url(../busimg/black_30.png);
+	position:absolute;
+	top:30px;
+	left:50%;
+	margin-left:-603px;
+	}
+.pointArea{
+	background:url(../busimg/bgtu.png) no-repeat -2px -125px;
+	width:110px;
+	height:22px;
+	float:left;
+	position:absolute;
+	top:366px;
+	left:50%;
+	margin-left:-60px;
+	padding-left:10px;
+	}
+.pointArea a{
+	float:left;
+	margin: 3px 9px;
+	width:16px;
+	height:16px;
+	display:block;
+	margin-top:3px;
+	background:url(../busimg/bgtu.png) no-repeat -32px -152px ;
+}
+.pointArea a:hover{
+	background:url(../busimg/bgtu.png) no-repeat -2px -152px;
+}
+.pointArea .current{
+	background:url(../busimg/bgtu.png) no-repeat -2px -152px;
+}
+.ball_1{
+	margin-left:17px;
+	}	
+.ball_2{
+	margin-left:18px;
+	margin-right:18px;
+	}
+.book_1{
+	margin:10px 0 7px 28px;
+	color:#fff;
+	font-size:18px;
+	overflow:hidden;
+	}
+.book_1 .bcar{
+	width:30px;
+	height:30px;
+	background:url(../busimg/bgtu.png) no-repeat -2px -2px;
+}
+.topBus{
+	margin-left:12px;
+	margin-top:2px;
+	}
+.book_1 div{
+	float:left;
+	}
+.book_2{
+	border-top:1px solid #e2f0fc;
+	padding:24px 0 0 28px;
+	color:#fff;
+	font-size:18px;
+	}
+.search{
+	border-bottom:1px dashed #d6ecfc;
+	}
+.inputBox{
+	overflow:hidden;
+	}	
+.stationSraech{
+	float:left;
+	}
+.clickChange{
+	float:left;
+	margin:16px 0 0 -5px;
+	width:22px;
+	height:60px;
+	background:url(../busimg/bgtu.png) no-repeat -32px -38px;
+	}
+.clickChange:hover{
+	background:url(../busimg/bgtu.png) no-repeat -2px -38px;
+}
+.book_2 input{
+	width:276px;
+	height:32px;
+	border:none;
+	}
+.w90{
+	width: 90px;
+	display: inline-block;
+	}
+.startSta{
+	margin-bottom:26px;
+	}
+.endSta{
+	margin-bottom:26px;	
+	}									
+.search{
+	padding:26px 0 18px 200px;
+	}
+.search input{
+	width:200px;
+	height:34px;
+	background:#3895e2;
+	border:none;
+	color:#FFF;
+	font-size:18px;
+	border-radius:4px;
+	}
+.search input:hover{
+	background-color:#F90;
+}
+.willStation{
+	padding:10px 0 10px 30px;
+	}
+.willStation div{
+	float:left;
+}
+.willStation .willfirst{
+	display:inline-block;
+	width:12px;
+	height:18px;
+	background:url(../busimg/bgtu.png) no-repeat -62px -38px;
+}
+.colOra{
+	color:#f5c140;
+	margin-left:10px;
+	margin-right:20px;
+	height:25px;
+	}
+.stationList span a{
+	margin-right:40px;
+	color:#fff;
+	}
+.stationList span a:hover{
+	color:#333;
+}
+.stepAndHelp{
+	width:1206px;
+	margin:26px auto 0;
+	overflow:hidden;
+	}
+.step{
+	float:left;
+	margin-top: 18px;
+	}	
+.aBoxLimit{
+	overflow:hidden;
+	padding-left:100px;
+	width: 300px;
+	height: 70px;
+	margin-top: 40px;
+	}
+.aBoxLimit .awidth{
+	width:100px;
+	float:left;
+}
+.backgroundHelp{
+	background-image:url(../busimg/help.png);
+	background-repeat:no-repeat;
+	float:right;
+	}
+.backgroundHelp div{
+	float:left;
+	color:#3895e2;
+	font-size:14px;
+	}
+.help_1{
+	margin-top:5px;
+	width:21px;
+	height:15px;
+	background:url(../busimg/bgtu.png) no-repeat -2px -180px;
+	}	
+.help_2{
+	margin:0 14px 0 7px;
+	font-size:14px;
+	color:#3895e2;
+	font-family:"微软雅黑";
+	}
+.help_3{
+	margin-top:2px;
+	width:21px;
+	height:20px;
+	background:url(../busimg/bgtu.png) no-repeat -32px -180px;
+	}	
+.help_4{
+	margin:0 14px 0 7px;
+	font-size:14px;
+	color:#3895e2;
+	font-family:"微软雅黑";
+	}	
+.help_5{
+	margin-top:2px;
+	width:21px;
+	height:22px;
+	background:url(../busimg/bgtu.png) no-repeat -62px -180px;
+	}	
+.help_6{
+	margin:0 0 0 7px;
+	font-size:14px;
+	color:#3895e2;
+	font-family:"微软雅黑";
+	}
+.reportOrNews{
+	overflow:hidden;
+	padding-top:12px;
+	width:1206px;
+	margin:0 auto;
+	min-height:170px;
+	}
+.report{
+	float:left;
+	width:430px;
+	height:170px;
+	}
+.reportTittle,.newsTittle{
+	color:#2481ce;
+	font-size:20px;
+	border-bottom:#2481ce 2px solid;
+	}
+.reportTittle a,.newsTittle a{
+	display:inline-block;
+	padding-left:322px;
+	color:#3895e2;
+}
+.reportTittle a:hover,.newsTittle a:hover{
+	text-decoration:underline;
+	color:#3895e2;
+}
+.reportList{
+	margin-top:13px;
+	}
+.news{
+	float:left;
+	margin-left:88px;
+	width:430px;
+	height:170px;
+	}
+.saoyisao{
+	float:right;
+	margin-top:-12px;
+	}
+.reportBox,.newsBox{
+	overflow:hidden;
+	color:#999;
+	}
+.reportBox{
+	display:block;
+	width:430px;
+	height:24px;
+	line-height:24px;
+}
+.reportBox_1,.newsBox_1{
+	float:left;
+	}
+.reportBox_1{
+	width:345px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+.reportBox_2,.newsBox_2{
+	float:right;
+	}
+.hotLine{
+	width:1206px;
+	min-height:320px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.moreLine{
+	border-bottom:#2481ce 2px solid;
+	padding:36px 0 10px 0;
+	overflow:hidden;	
+	}	
+.moreLine_1{
+	color:#2481ce;
+	font-size:20px;
+	float:left;
+	}
+.moreLine_2{
+	float:left;
+	margin-left:110px;
+	}	
+.moreLine_2 div{
+	float:left;
+	margin-left:12px;
+	margin-right:12px;
+	}
+.moreLine_2 div a{
+	color:#666;
+	font-family:"微软雅黑";
+	font-size:12px;
+	display:block;
+	width:44px;
+	height:22px;
+	text-align:center;
+}
+.moreLine_2 div a:hover{
+	width:44px;
+	height:22px;
+	background:#ff8a00;
+	text-align:center;
+	line-height:22px;
+	color:#fff;
+	}		
+.lineGroup{
+	width:1190px;
+	margin:10px auto;
+	overflow:hidden;
+	}									
+.lineBox{
+	width:188px;
+	height:72px;
+	border:1px solid #e3e3e3;
+	float:left;
+	margin:4px;
+	}
+.lineBox:hover{
+	background-color:#429bd4;
+	}	
+.stationLine{
+	font-size:14px;
+	color:#999;
+	margin:10px 0 0 16px;
+	}
+.lineBox:hover .stationLine,.lineBox:hover .busTime span{
+	color:#FFF;
+}
+.stationLineClick{
+	font-size:14px;
+	color:#fff;
+	margin:10px 0 0 16px;
+	}
+
+.stationLine .arrivalj{
+	margin: -2px auto 0;
+	display:inline-block;
+	width:46px;
+	height:8px;
+	background:url(../busimg/bgtu.png) no-repeat -62px -210px;
+	}
+.lineBox:hover .stationLine .arrivalj{
+	background:url(../busimg/bgtu.png) no-repeat -2px -210px;
+}
+.dollor{
+	color:#fe7e00;
+	font-size:16px;
+	margin:0 -4px 0 36px
+	}
+.dollorClick{
+	color:#fff;
+	font-size:16px;
+	margin:0 -4px 0 36px
+	}		
+.shouldPay{
+	color:#fe7e00;
+	font-size:16px;
+	}
+.shouldPayClick{
+	color:#fff;
+	font-size:16px;
+	}	
+.arrivalTime{
+	color:#999;
+	}
+.arrivalTimeClick{
+	color:#fff;
+	}	
+.busTime{
+	margin:5px 0 0 17px;
+	}
+.alwaysQuestion{
+	width:1206px;
+	margin:0 auto;
+}
+.alwaysQuestion_1{
+	color: #2481ce;
+	font-size: 20px;
+	border-bottom: #2481ce 2px solid;
+	padding:30px 0 10px 0;
+	}	
+.someQuestion{
+	overflow:hidden;
+	margin-top:14px;
+	margin-bottom:50px;
+	}
+.someQuestion a{
+	display:inline-block;
+	width:270px;
+	height:75px;
+	text-overflow:allipsis;
+	overflow:hidden;
+}
+.someQuestion a .answer .qt .st{
+	display:inline-block;
+	width:236px;
+	white-space:nowrap;
+	height:40px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.someQuestion a:hover .question .questionq{
+	color:#F63;
+}
+.someQuestion_1{
+	float:left;
+	margin-right:60px;
+	}
+.someQuestion_2{
+	float:left;
+	margin-right:60px;	
+	}
+.someQuestion_3{
+	float:left;
+	}
+.someQuestion_4{
+	float:right;
+	}
+.question{
+	overflow:hidden;
+	color:#999;
+	}
+.question div{
+	float:left;
+	}
+.answer div{
+	float:left;
+	}		
+.answer{
+	color:#999;
+	overflow:hidden;
+	}
+.qFont{
+	width:17px;
+	height:17px;
+	background:url(../busimg/bgtu.png) no-repeat -2px -225px;
+	margin:3px 12px 0 0;
+	}
+.aFont{
+	width:17px;
+	height:17px;
+	background:url(../busimg/bgtu.png) no-repeat -32px -225px;
+	margin:3px 12px 0 0;
+	}
+.whyFindUs{
+	background:#429bd4;
+	margin-bottom:30px;
+	}	
+.whyChooseUs{
+	width:1190px;
+	margin:0 auto;
+	background-image:url(../busimg/whyChooseUs.png);
+	}
+.alertStaCity{
+    position: absolute;
+    top: 275px;
+    left: 480px;
+    z-index: 2;
+    width: 450px;
+    height: 246px;
+    background: #fff;
+	display:none;
+	border:1px solid #999;	
+	}	
+.alertEndCity{
+    position: absolute;
+    top: 333px;
+    left: 480px;
+    z-index: 2;
+    width: 450px;
+    height: 246px;
+    background: #fff;
+	display:none;
+	border:1px solid #999;
+	}	
+
+.zhichi{
+	margin:10px 0 8px 12px;
+	color:#777;
+	}
+.searchLetter{
+	margin:0 0 4px 0px;
+	font-size:14px;
+	border-bottom:2px solid #ccc;
+	padding-bottom: 3px;	
+	}
+.searchLetter span{
+	margin-left:12px;
+	margin-right:10px;
+	
+	}
+.color_lan{
+	color:#3895e2;
+	border-bottom:2px solid #3895e2;
+	padding-bottom: 6px;
+	}
+.color_grey{
+	color:#777;
+	}
+.someCity{
+	margin-top:10px;
+	overflow:hidden;
+	color:#555;
+	}
+.someCity li{
+	display:block;
+	width:50px;
+	height:22px;
+	float:left;
+	text-align:center;
+	line-height:22px;
+    margin: 0 12px 10px 12px;	
+	}	
+.cityChecked{
+	background:#3895e2;
+	color:#fff;
+	}							

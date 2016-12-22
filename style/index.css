@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+.icogallery,.galleryone{ background:url(../images/icogallery.png);}
+.seaone,.seatwo,.seathere,.seafour,.seafive,.change,.no1,.no2,.no3,.no4,.no5{ background:url(../images/index.png) no-repeat}
+
+#index{ width:1190px; margin:0 auto; padding-top:15px;}
+#index .seachbox{ background:#fff; border:1px solid #c8c7c7; box-shadow: 2px 2px 5px #b1b1b1;}
+#index .adindex{ padding:10px;}
+#index .seatitle{ width:160px;}
+#index .seatitle ul{}
+#index .seatitle ul li{ cursor:pointer; font-size:16px; float:left; background:#f7f7f7; height:64px; line-height:64px; border:1px solid #cccccc; border-top:none; border-left:none; width:160px;}
+#index .seatitle ul li:hover{ color:#f48000;}
+#index .seatitle ul li .now{ background:#fff; border-right:none;}
+#index .seachleft{ width:580px;}
+#index .seaone{  background-position:-540px -0px; padding-left:60px; }
+#index .seatwo{  background-position:-540px -64px; padding-left:60px; }
+#index .seathere{  background-position:-540px -128px; padding-left:60px; }
+#index .seafour{  background-position:-540px -192px; padding-left:60px; }
+#index .seafive{  background-position:-540px -256px; padding-left:60px; }
+#index .seatitleon{background:#fff; border-right:none}
+#index .change{ width:40px; background-position:-260px 0 ; height:80px; margin-top:85px; cursor:pointer;}
+#index .seach td{ height:58px; font-size:16px;}
+
+#index .traintop{ width:897px; border:1px solid #c8c7c7; background:#fff; box-shadow: 2px 2px 5px #b1b1b1;}
+#index .galleryone{ width:60px; height:50px; background-position:0 0; display:block; margin:0 0 0 30px;}
+#index .gallerytwo{ width:60px; height:50px; background-position:-70px 0px; display:block; margin:0 0 0 30px;}
+#index .gallerythere{ width:70px; height:50px; background-position:0px -60px; display:block; margin:0 0 0 30px;}
+#index .galleryfour{ width:70px; height:50px; background-position:-70px -60px; display:block; margin:0 0 0 30px;}
+#index .galleryfive{ width:70px; height:60px; background-position:0 -120px; display:block; margin:0 0 0 30px;}
+#index .gallerysix{ width:70px; height:60px; background-position:-70px -120px; display:block; margin:0 0 0 30px;}
+#index .gallery{ width:250px; border:1px solid #c8c7c7; background:#fff; padding:12px;}
+#index .gallery ul{}
+#index .gallery ul li{ width:120px; text-align:center; float:left; } 
+#index .gallery ul li a{font-size:14px;}
+#index .publicmain{ margin:0px 20px 0px 30px; height:257px;} 
+#index .publicmain ul{}
+#index .publicmain ul li{ width:149px; height:40px; line-height:20px; background:#f3f3f3; margin-top:10px; float:left; margin-right:10px; padding:5px 5px;}
+#index .hoteltop{border:1px solid #c8c7c7; background:#fff; box-shadow: 2px 2px 5px #b1b1b1;}
+#index .hotelmain{ padding:20px 30px;}
+#index .no1{ width:163px; height:35px; background-position:0px -100px; z-index:99; bottom:0; padding:18px 0 0 40px;} 
+#index .no2{ width:130px; height:26px; background-position:0px -180px; z-index:99; bottom:0; padding:11px 0 0 45px;} 
+#index .no3{ width:130px; height:26px; background-position:0px -240px; z-index:99; bottom:0; padding:11px 0 0 45px;} 
+#index .no4{ width:130px; height:26px; background-position:0px -300px; z-index:99; bottom:0; padding:11px 0 0 45px;} 
+#index .no5{ width:130px; height:26px; background-position:0px -360px; z-index:99; bottom:0; padding:11px 0 0 45px;} 
+#index .hotelnav{ border-left:1px solid #e7e7e7; margin-left:30px; padding-left:20px;}
+#index .hotelnav td{ border-bottom:1px solid #e7e7e7; height:47px; }
+#index .public-city{ padding-right:10px;}
+#index .public-city ul{}
+#index .public-city ul li{ width:70px; text-align:center; line-height:50px;}
+#index .public-city ul li a{ font-size:16px;}

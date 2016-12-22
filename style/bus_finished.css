@@ -1,0 +1,286 @@
+@charset "utf-8";
+/* CSS Document */
+/* Create By Hiken 2015.8.7 bug get out  */
+.bjbj{
+	background:url(../images/bjmiddle.png) repeat-x ;
+	height:18px;
+}
+.info{
+	width:1190px;
+	margin:0 auto;
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	overflow:hidden;
+	}
+.aBox{
+	float:right;
+	width: 300px;
+	margin-top:20px;
+	}		
+.orderBox{
+	float:right;
+	margin-right:16px;
+	}
+.orderBox li{
+	display:block;
+	float:left;
+	}
+/*				
+.roundArea{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 19px;
+	font-size: 14px;
+	float: left;
+	//直接用代码设置圆角，在ie8以下，圆角失效，所以用图片替代了。
+	}
+*/
+.roundArea{
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 19px;
+	font-size: 14px;
+	float: left;
+	}
+.roundBlue{
+	background:url(../busimg/bgtu.png) no-repeat -2px -780px;
+	width:20px;
+	height:20px;
+	color:#fff;
+	}
+.roundGrey{
+	background:url(../busimg/bgtu.png) no-repeat -32px -780px;
+	width:20px;
+	height:20px;
+	color:#999;
+	}
+.colorBlue{
+	background:#3895e2;
+	}
+.colorGrey{
+	background:#ccc;
+	}						
+.orderLine{
+	height: 5px;
+	width: 90px;
+	display: inline;
+	border-radius: 0;
+	margin-top:8px;
+	}
+.orderWord{
+	float:right;
+	}
+.orderWord li{
+	float:left;
+	line-height:50px;
+	}
+.mr90{
+	margin-right:64px;
+	}
+.paySuccess{
+	overflow:hidden;
+	width:1190px;
+	height:423px;
+	}
+.payLeft{
+	float:left;
+	margin:98px 0 68px 62px;
+	}
+.payRight{
+	float:right;
+	margin-right:62px;
+	margin-top:52px;
+	}
+.finishArea{
+	overflow:hidden;
+	}
+.finishImg{
+	float:left;
+	margin-top:4px;
+	background:url(../busimg/bgtu.png) no-repeat -2px -680px;
+	width:46px;
+	height:46px;
+	}	
+.finishInfo{
+	float:left;
+	margin-left:14px;
+	}
+.finishInfo_1{
+	display:block;
+	font-size:18px;
+	color:#999;
+	font-weight:bold;
+	}
+.finishInfo_2{
+	display:block;
+	font-size:24px;
+	color:#ff9a00;
+	margin-top:6px;
+	}
+.waitImg{
+	margin: 12px 0 0 6px;
+	}	
+.orderNum{
+	margin: 32px 0 0 63px;
+	color:#666;
+	font-size:14px;
+	}
+.someInfo{
+	margin: 14px 0 0 63px;
+	font-size:14px;
+	color:#666;
+	}	
+.checkOrder{
+	color:#3895e2;
+	font-size:14px;
+	}
+.goOnOrEnter{
+	margin: 60px 0 0 63px;
+	font-size:16px;	
+	}
+.goOn,.enter{
+	color:#3895e2;
+	font-size:18px;
+	cursor:pointer;		
+	}
+.moreLineBox{
+	width:1088px;
+	margin:0 auto;
+	border-top:1px solid #ccc;
+	}
+.moreLine{
+	color:#3895e2;
+	font-size:18px;
+	margin:25px 0 12px 0;
+	}
+.lineGroup{
+	width:1088px;
+	margin:0 auto;
+	overflow:hidden;
+	}
+.lineGroup_1{
+	width:1010px;
+	margin:0 auto;
+	}									
+.lineBox{
+	width:188px;
+	height:72px;
+	border:1px solid #e3e3e3;
+	float:left;
+	margin:6px;
+	}
+.stationLine{
+	font-size:14px;
+	color:#999;
+	margin:10px 0 0 16px;
+	overflow:hidden;
+	}
+.stationLine div{
+	float:left;
+	}	
+.arrival{
+	margin: 8px 6px 0 6px;
+	background:url(../busimg/bgtu.png) no-repeat -62px -210px;
+	width:46px;
+	height:5px;
+	}
+.dollor{
+	color:#fe7e00;
+	font-size:16px;
+	margin:0 -4px 0 36px
+	}	
+.shouldPay{
+	color:#fe7e00;
+	font-size:16px;
+	}
+.arrivalTime{
+	color:#999;
+	}
+.busTime{
+	margin:5px 0 0 17px;
+	}
+.moreOrPack{
+	margin: 12px 31px 50px 0;
+	color:#eea830;
+	font-size:14px;
+	cursor:pointer;
+	overflow:hidden;
+	}
+.moreOrPackImg{
+	background:url(../busimg/bgtu.png) no-repeat -2px -740px;
+	width:11px;
+	height:6px;
+	margin: 9px 0 0 5px;
+	}		
+.jiantou_shang{
+	margin:9px 0 0 3px;
+	}
+.lineGroup{
+	width:1088px;
+	margin:10px auto;
+	overflow:hidden;
+	}									
+.lineBox{
+	width:188px;
+	height:72px;
+	border:1px solid #e3e3e3;
+	float:left;
+	margin:4px;
+	}
+.lineBox:hover{
+	background-color:#429bd4;
+	}	
+.stationLine{
+	font-size:14px;
+	color:#999;
+	margin:10px 0 0 16px;
+	}
+.lineBox:hover .stationLine,.lineBox:hover .busTime span{
+	color:#FFF;
+}
+.stationLineClick{
+	font-size:14px;
+	color:#fff;
+	margin:10px 0 0 16px;
+	}
+
+.stationLine .arrivalj{
+	margin: -2px auto 0;
+	display:inline-block;
+	width:46px;
+	height:8px;
+	background:url(../busimg/bgtu.png) no-repeat -62px -210px;
+	}
+.lineBox:hover .stationLine .arrivalj{
+	background:url(../busimg/bgtu.png) no-repeat -2px -210px;
+}
+.dollor{
+	color:#fe7e00;
+	font-size:16px;
+	margin:0 -4px 0 36px
+	}
+.dollorClick{
+	color:#fff;
+	font-size:16px;
+	margin:0 -4px 0 36px
+	}		
+.shouldPay{
+	color:#fe7e00;
+	font-size:16px;
+	}
+.shouldPayClick{
+	color:#fff;
+	font-size:16px;
+	}	
+.arrivalTime{
+	color:#999;
+	}
+.arrivalTimeClick{
+	color:#fff;
+	}	
+.busTime{
+	margin:5px 0 0 17px;
+	}

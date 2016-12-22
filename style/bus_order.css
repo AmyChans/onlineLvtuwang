@@ -1,0 +1,316 @@
+@charset "utf-8";
+/* CSS Document */
+/* Create By Hiken 2015.8.12 bug get out  */
+.bjbj{
+	background:url(../images/bjmiddle.png) repeat-x ;
+	height:18px;
+}
+.info{
+	width:1190px;
+	margin:0 auto;
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	overflow:hidden;
+	}
+.aBox{
+	float:right;
+	width: 300px;
+	margin-top:20px;
+	}		
+.orderBox{
+	float:right;
+	margin-right:16px;
+	}
+.orderBox li{
+	display:block;
+	float:left;
+	}
+/*				
+.roundArea{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 19px;
+	font-size: 14px;
+	float: left;
+	//直接用代码设置圆角，在ie8以下，圆角失效，所以用图片替代了。
+	}
+*/
+.roundArea{
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 19px;
+	font-size: 14px;
+	float: left;
+	}
+.roundBlue{
+	background:url(../busimg/bgtu.png) no-repeat -2px -780px;
+	width:20px;
+	height:20px;
+	color:#fff;
+	}
+.roundGrey{
+	background:url(../busimg/bgtu.png) no-repeat -32px -780px;
+	width:20px;
+	height:20px;
+	color:#999;
+	}
+.colorBlue{
+	background:#3895e2;
+	}
+.colorGrey{
+	background:#ccc;
+	}						
+.orderLine{
+	height: 5px;
+	width: 90px;
+	display: inline;
+	border-radius: 0;
+	margin-top:8px;
+	}
+.orderWord{
+	float:right;
+	}
+.orderWord li{
+	float:left;
+	line-height:50px;
+	}
+.mr90{
+	margin-right:64px;
+	}
+.payOnline{
+	overflow:hidden;
+	width:1146px;
+	margin:21px auto 26px auto;
+	}
+.payOnline_1{
+	float:left;
+	color:#666;
+	font-size:18px;
+	margin-right:40px;
+	}
+.payOnline_2{
+	float:left;
+	font-size:14px;
+	color:#666;
+	}
+.payOnline_2 span{
+	color:#ed9c29;
+	font-size:18px;
+	font-weight:bold;
+	}				
+.someInformation{
+	width:1146px;
+	margin:0 auto;
+	border:1px solid #e0e0e0;
+	}
+.orderInfo_1{
+	color:#666;
+	font-size:16px;
+	margin:8px 0 24px 12px;
+	}
+.orderInfo_2{
+	margin-left:12px;
+	overflow:hidden;
+	margin-bottom:12px;
+	}
+.willPay{
+	float:left;
+	}
+.willPay span{
+	color:#E68B00;
+	font-size:14px;
+	font-weight:bold;
+	font-family:"微软雅黑";
+}
+.orderNumber{
+	float:left;
+	margin-left:25px;
+	}
+.orderNumber span{
+	color:#999;
+	font-size:14px;
+	font-weight:bold;
+	font-family:"微软雅黑";
+}
+.greyLine{
+	width:1122px;
+	height:1px;
+	background:#e0e0e0;
+	margin:0 auto;
+	}
+.ticketInfo{
+	margin-top:20px;
+	margin-bottom:20px;
+	overflow:hidden;
+	}
+.ticketInfo_1{
+	color:#666;
+	font-size:14px;
+	float:left;
+	margin-left:12px;
+	}
+.ticketInfo_2{
+	float:left;
+	margin-left:75px;
+	font-size:14px;
+	color:#898989;	
+	}
+.stationOrTime{
+	float:left;
+	margin-left:65px;
+	color:#3895e2;
+	font-size:14px;	
+	}
+.personInfo,.getTicketInfo{
+	margin-top:20px;
+	margin-bottom:20px;
+	overflow:hidden;
+	color: #898989;
+	font-size:14px;
+	}
+.personInfo_1,.getTicketInfo_1{
+	color:#666;
+	font-size:14px;
+	float:left;
+	margin-left:12px;
+	}
+.personInfo_2,.getTicketInfo_2{
+	float:left;
+	margin-left: 60px;
+	}	
+.idInfo,.getIdInfo{
+	float:left;
+	margin-left:80px;
+	}
+.safeInfo,.phoneNumber{
+	float:left;
+	margin-left:75px;
+	}
+.safeInfo_2{
+	color:#3895e2;
+	cursor: pointer;
+	}
+.return{
+	color:#3895e2;
+	font-size:14px;
+	margin:16px 0 40px 950px;
+	}
+#pay{
+	margin:20px;
+	}
+#pay .paytop{
+	height:40px;
+	line-height:40px;
+	border-bottom:2px solid #76bbff;
+	}
+
+#pay .paytop ul li a{
+	font-size:16px;
+	}
+#pay .on{
+	background:#fff;
+	border-top:2px solid #76bbff;
+	border-left:2px solid #76bbff;
+	border-right:2px solid #76bbff;
+	}
+#pay .on a{
+	color:#1e87ee
+	}
+#pay .paymain{
+	border-left:2px solid #76bbff;
+	border-right:2px solid #76bbff;
+	border-bottom:2px solid #76bbff;
+	padding-bottom: 36px;
+	}
+#pay .payall{
+	background:url(../images/payall.png);
+	width:835px;
+	padding-top:13px;
+	}
+#pay .payall ul li{
+	width:152px;
+	height:30px;
+	line-height:30px;
+	padding-left:5px;
+	margin:15px 20px 0 15px;
+	border:1px solid #dddddd;
+	float:left;
+	}
+.xuanzeyinhang{
+	float:left;
+	padding:0 30px;
+	font-size:16px;
+	width:64px;
+	text-align:center;
+	}
+.xinyongka,.wangshangyinhang{
+	float:left;
+	padding:0 30px;
+	font-size:16px;
+	border-top:2px solid #76bbff;
+	border-left:2px solid #76bbff;
+	border-right:2px solid #76bbff;
+	width:64px;
+	text-align:center;
+	margin-left:10px;
+	}
+.payNotice{
+	float: right;
+	font-size: 14px;
+	color: #333;
+	}
+.payment_1{
+	font-size:16px;
+	margin-left: 30px;
+	margin-top:20px;
+	}
+.payment_2{
+	width:1140px;
+	height:60px;
+	background:#f5f5fd;
+	margin:0 auto;
+	margin-top:8px;
+	overflow:hidden;
+	}
+.payment_2 div{
+	float:left;
+	margin:9px 20px;
+	}
+.btnBottom{
+	width: 160px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 16px;
+	color: #FFF;
+	border: none;
+	background:#e58a00;
+	border-radius: 4px;
+	margin: 20px 0 40px 1004px;
+	}
+.btnBottom:hover{
+	background:#F59400;
+	}	
+.orangeLine_bottom{
+	height:2px;
+	background:#3895e2;
+	margin-top:50px;
+	}
+.pay_1{
+	background:url(../busimg/bgtu.png) no-repeat -2px -530px;
+	width:162px;
+	height:42px;
+	}
+.pay_2{
+	background:url(../busimg/bgtu.png) no-repeat -2px -580px;
+	width:162px;
+	height:42px;
+	}
+.pay_3{
+	background:url(../busimg/bgtu.png) no-repeat -2px -630px;
+	width:162px;
+	height:42px;
+	}
+				

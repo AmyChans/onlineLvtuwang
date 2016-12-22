@@ -1,0 +1,713 @@
+@charset "utf-8";
+/* CSS Document */
+/* Create By Hiken 2015.8.7 bug get out  */
+.bjbj{
+	background:url(../images/bjmiddle.png) repeat-x ;
+	height:18px;
+}
+input{
+	border:1px solid #a9a9a9;
+	}
+.info{
+	width:1190px;
+	margin:0 auto;
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	overflow:hidden;
+	}
+.leftArea{
+	margin-left:30px;
+	float:left;
+	margin-top:20px;
+	width:824px;
+	}
+.rightArea{
+	margin-right:30px;
+	float:right;
+	margin-top:20px;
+	width:296px;
+	}
+.busInfo{
+	height:198px;
+	width:822px;
+	margin-bottom:20px;
+	border:1px solid #f7a837;
+	}
+.personInfo{
+	width:822px;
+	margin-bottom:20px;
+	border:1px solid #2dae00;
+	}
+.contactsInfo{
+	height:264px;
+	width:822px;
+	margin-bottom:20px;
+	border:1px solid #3895e2;
+	}
+.payInfo{
+	height:198px;
+	width:294px;
+	margin-bottom:20px;
+	border:1px solid #999999;
+	}
+.notice{
+	height:370px;
+	width:294px;
+	margin-bottom:20px;
+	border:1px solid #999999;
+	}
+.aBox{
+	float:right;
+	width: 300px;
+	margin-top:20px;
+	}		
+.orderBox{
+	float:right;
+	margin-right:16px;
+	}
+.orderBox li{
+	display:block;
+	float:left;
+	}
+/*				
+.roundArea{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 19px;
+	font-size: 14px;
+	float: left;
+	//直接用代码设置圆角，在ie8以下，圆角失效，所以用图片替代了。
+	}
+*/
+.roundArea{
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 19px;
+	font-size: 14px;
+	float: left;
+	}
+.roundBlue{
+	background:url(../busimg/bgtu.png) no-repeat -2px -780px;
+	width:20px;
+	height:20px;
+	color:#fff;
+	}
+.roundGrey{
+	background:url(../busimg/bgtu.png) no-repeat -32px -780px;
+	width:20px;
+	height:20px;
+	color:#999;
+	}
+.colorBlue{
+	background:#3895e2;
+	}
+.colorGrey{
+	background:#ccc;
+	}						
+.orderLine{
+	height: 5px;
+	width: 90px;
+	display: inline;
+	border-radius: 0;
+	margin-top:8px;
+	}
+.orderWord{
+	float:right;
+	}
+.orderWord li{
+	float:left;
+	line-height:50px;
+	}
+.mr90{
+	margin-right:64px;
+	}					
+.orangeLine{
+	height:1px;
+	width:822px;
+	background:#f7a837;
+	}
+.greenLine{
+	height:1px;
+	width:822px;
+	background:#2dae00;
+	}
+.blueLine{
+	height:1px;
+	width:822px;
+	background:#3895e2;
+	}
+.busImgFont{
+	overflow:hidden;
+	}	
+.busInfoImg{
+	background:url(../busimg/bgtu.png) no-repeat -2px -388px;
+	width:47px;
+	height:51px;
+	float:left;
+	}
+.busPersonImg{
+	background:url(../busimg/bgtu.png) no-repeat -92px -388px;
+	width:47px;
+	height:51px;
+	float:left;	
+	}
+.busTicketImg{
+	background:url(../busimg/bgtu.png) no-repeat -2px -460px;
+	width:47px;
+	height:51px;
+	float:left;
+	}					
+.busInfofont{
+	font-size:18px;
+	color:#555;
+	font-weight: bold;
+	line-height:47px;
+	float:left;
+	margin-left:3px;	
+	}
+.greyLine_1{
+	height:1px;
+	width:800px;
+	background:#dfdfdf;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	}	
+.stationInfo{
+	margin-top:23px;
+	color:#666;
+	overflow:hidden;
+	font-size:24px;
+	}
+.stationBox{
+	width:382px;
+	float:left;
+	}	
+.startSta{
+	float:right;
+	}
+.endSta{
+	float:left;
+	}		
+.jiantou{
+	width:34px;
+	height:7px;
+	background:url(../busimg/bgtu.png) no-repeat -62px -460px;
+	margin:6px 10px 0 10px;
+	}
+.otherInfo{
+	margin-top:40px;
+	margin-bottom:20px;
+	overflow:hidden;
+	font-size:14px;
+	color:#666;
+	}			
+.otherInfo div{
+	float:left;
+	}
+.others{
+	width:274px;
+	text-align:center;
+	}
+.charge{
+	color:#ff6600;
+	}
+.busTime{
+	color:#3895e2;
+	font-size:12px;
+	margin-left:25px;
+	}
+.greeenLine{
+	height:1px;
+	width:822px;
+	background:##2dae00;
+	}	
+.alwayUser{
+	width:800px;
+	margin:0 auto;
+	border:1px solid #eeeeee;
+	color:#666;
+	line-height:37px;
+	margin-top:10px;
+	}
+.alwayUser_1{
+	margin-left:18px;
+	margin-right:48px;
+	}
+.alwayUsername{
+	margin-left:-6px;
+	}
+.fixform{
+	margin-top:30px;
+	overflow:hidden;
+	height: 80px;
+	color:#666;
+	}
+.aPerson{
+	margin-top:5px;
+	margin-bottom:5px;
+	float:left;
+	width:140px;
+	margin-left:34px;
+	}	
+.formBox{
+	float:left;
+	width:530px;
+	height:1px
+	}
+.setOrDel{
+	float:right;
+	width:116px;
+	margin-top: 4px;
+	margin-right:5px;
+	}
+.nameOrId{
+	overflow:hidden;
+	}
+.nameOrId span{
+	float:left;
+	}
+.nameOrId select{
+	float:left;
+	height:32px;
+	width:160px;
+	margin-left:26px;
+	margin-right:8px;
+	color:#999;
+	}		
+.nameOrId span{
+	float:left;
+	}		
+.warning{
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 14px;
+	background:#ffb027;
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+	margin-top:9px;
+	margin-right:4px;
+	display:none;
+	}
+.idInput{
+	height:28px;
+	width:220px;
+	margin-left:26px;
+	margin-right:12px;
+	}
+.idInput_1{
+	height:28px;
+	width:180px;
+	}	
+.mt5{
+	margin-top:5px;
+	}
+.fs14{
+	font-size:14px;
+	}
+.clolrRed{
+	color:#eb3c3c;
+	display:none;
+	}
+.greyLine_2{
+	width:800px;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+	border-top:1px dashed #dfdfdf;
+	}
+.addPerson{
+	margin:12px 0 0 17px;
+	}	
+.addBtn{
+	width:96px;
+	height:30px;
+	border-radius: 4px;
+	color:#fff;
+	background:#4cae4c;
+	margin-right:10px;
+	font-weight: bold;
+	border:none;
+	}
+.addBtn:hover{
+	background:#459B45;
+	}	
+.addBtn1{
+	margin-top:2px;
+	margin-right:4px;
+	}
+.addBtn2{
+	font-size:14px;
+	}
+.moreAdd{
+	color:#999;
+	}
+.greyLine_3{
+	width:800px;
+	margin-top:16px;
+	margin-left:auto;
+	margin-right:auto;
+	border-top:1px dashed #dfdfdf;
+	}
+.baoxian{
+	margin-top:22px;
+	margin-bottom:22px;
+	}
+.baoxian_1{
+	margin:4px 14px 0 32px;
+
+	color:#999;
+	}
+.baoxian_2{
+	color:#3895E2;
+	margin-left:10px;
+	cursor: pointer;
+	}
+.baoxian select{
+	width:150px;
+	color:#999;
+	}
+.setOrDel span{
+	color:#3895E2;
+	cursor: pointer;	
+	}
+.setOrDel span:hover{
+	text-decoration:underline;
+}
+.setOrDel_1 span{
+	cursor: pointer;	
+}			
+.formBox_1{
+	float:left;
+	width:640px;
+	height:1px;
+	margin-top:22px;
+	margin-left:22px;
+	}
+.setOrDel_1{
+	float:right;
+	width:144px;
+	margin-top: 22px;
+	color:#999;
+	}
+.greyLine_4{
+	height:1px;
+	width:824px;
+	background:#dfdfdf;
+	margin-top:40px;
+	}
+.read{
+	margin-top:15px;
+	}
+.iRead{
+	color:#666;
+	margin-left: -8px;
+	}		
+.read a{
+	color:#3895e2;	
+	}
+.bottomBtn{
+	width:200px;
+	height: 35px;
+	border-radius: 4px;
+	color: #fff;
+	background: #ff9419;
+	margin-top: 20px;
+	font-weight: bold;
+	margin-bottom:90px;
+	font-size: 16px;
+	border:none;
+	}
+.bottomBtn:hover{
+	background:#F18911;
+	}	
+.sureBtn{
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.greyLine_5{
+	height:1px;
+	width:294px;
+	background:#dfdfdf;
+	}
+.greyLine_6{
+	height:1px;
+	width:294px;
+	background:#f6ca8a;
+	}
+.settleInfo{
+	font-size:18px;
+	margin:13px 0 22px 11px;
+	font-weight: bold;
+	color:#666;
+	}
+.settleInfo_1{
+	margin:14px 0 0 15px;
+	font-size:14px;
+	color:#999;
+	}
+.settleInfo_2{
+	margin:14px 0 15px 15px;
+	font-size:14px;
+	color:#999;
+	}
+.settleInfo_3{
+	font-size:16px;
+	color:#999;
+	}
+.settleInfo_4{
+	font-size:16px;
+	color:#ed9c29;
+	}
+.settleInfo_5{
+	color:#ed9c29;
+	font-size:20px;
+	}
+.settleInfo_6{
+	margin:10px 0 0 17px;
+	}
+.noticeArea{
+	margin:14px 0 0 8px;
+	overflow:hidden;
+	}
+.noticeArea_1{
+	margin-left: 5px;
+	background: url(../busimg/bgtu.png) no-repeat -62px -489px;
+	width: 15px;
+	height: 15px;
+	float:left;	
+	}		
+.importantNot{
+	font-size: 14px;
+	color: #666;
+	margin-left:2px;
+	float:left;
+	margin-top:-5px;
+	}
+.importantNot_1{
+	color:#888;
+	}
+.point{
+	margin-left:20px;
+	margin-right:16px;
+	color:#f3ac43;
+	position:absolute;
+	top: -21px;
+	left: -4px;
+	font-size: 60px;
+	}
+.ml37{
+	margin-left:37px;
+	}
+.col666{
+	color:#666;
+	}
+.positionRel{
+	position:relative;
+	}		
+.read input{
+	margin-top:-3px;
+	}
+.alwayUser input{
+	margin-top:-3px;
+	}
+.borderRed{
+	border-color:#F85858;
+	}	
+	
+	
+	
+	
+
+.zhezhao{
+	width:100%;
+	height:100%;
+	background:#000;
+	filter:alpha(opacity=30);
+	-moz-opacity:0.3;
+	-khtml-opacity: 0.3;
+	opacity: 0.3;	
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:99;
+	display:none;
+}	
+
+
+.popInfo{
+	width:630px;
+	height:430px;
+	background:#fff;
+	border:2px solid #FF9C00;
+	z-index:100;
+	position:fixed;
+	top:20%;
+	left:50%;
+	margin-left:-315px;
+	display:none;
+	}
+.popCheck{
+	padding:12px 0 12px 20px;
+	font-size:18px;
+	color:#666;
+	border-bottom:2px solid #ccc;
+	}
+.popStation{
+	width:590px;
+	margin:0 auto;
+	border-bottom:dashed 1px #ccc;
+	}
+.popStation_1{
+	overflow:hidden;
+	padding-top:16px;
+	width: 464px;
+	margin:0 auto;
+	font-size:18px;
+	color:#666;
+	}
+.popStation_2{
+	overflow:hidden;
+	padding:22px 0 20px 0;
+	}		
+.popStation_1 div,.popStation_2 div{
+	float:left;
+	}
+.popStartSta{
+	text-align:right;
+	width:200px;	
+	}
+.popEndSta{
+	text-align:left;
+	width:200px;	
+	}
+.popImg{
+	margin-left:5px;
+	margin-right:5px;
+	}
+.popBus{
+	color:#898989;
+	font-size:14px;
+	width:278px;	
+	text-align:center;
+	}
+.popBus_2{
+	margin-left: 4px;
+	}	
+.popBusTime{
+	font-size:14px;
+	color:#3594e6;
+	width:278px;
+	text-align:center;	
+	}
+.popPerson{
+	overflow:hidden;
+	width: 590px;
+	margin: 0 auto;
+	padding-top:20px;
+	border-bottom:dashed 1px #ccc;		
+	}			
+.popPerson_1{
+	float:left;
+	color:#ff9c00;	
+	}
+.popPerson_2{
+	float:left;
+	margin-left:26px;
+	color:#777;
+	}
+.popNameOrId{
+	overflow:hidden;
+	padding-bottom:18px;
+	}
+.popName,.popId{
+	float:left;
+	}
+.popTakeTicket{
+	overflow:hidden;
+	width: 590px;
+	margin: 0 auto;
+	padding-top:18px;
+	padding-bottom:18px;
+	border-bottom:dashed 1px #ccc;		
+	}
+.popTakeTicket_1{
+	color:#ff9c00;
+	}
+.popTakeTicket_2{
+	margin-left: 21px;
+	color:#777;	
+	}
+.popTake_1{
+	float:left;
+	}
+.popTake_2{
+	margin-left: 30px;
+	float:left;
+	color:#777;	
+	}
+.popTake_3{
+	float:right;
+	color:#777;	
+	}		
+.popSafe{
+	text-align:right;
+	width: 590px;
+	margin: 0 auto;
+	padding-top:20px;
+	padding-bottom:18px;
+	}
+.popBtnGroup{
+	overflow:hidden;
+	width: 590px;
+	margin: 0 auto;	
+	}
+.popBtnGroup_1{
+	float:left;
+	width:50%;
+	text-align:center;
+	}
+.popBtnGroup_1 input,.popBtnGroup_2 input{
+	width:120px;
+	height:30px;
+	background:#FF9C00;
+	border:none;
+	color:#FFF;
+	border-radius:5px;
+}
+.popBtnGroup_2{
+	float:left;
+	width:50%;
+	text-align:center;	
+	}
+.popId{
+	margin-left:30px;
+	}
+.popSafe_1,.popSafe_2,.popSafe_3{
+	color:#999;
+	}
+.popSafe_4{
+	color:#777;
+	font-size:14px;
+	}
+.popSafe_5,.popSafe_6{
+	color:#ff9c00;
+	font-size:18px;
+	}
+.popBtnGroup button{
+	width:120px;
+	height:32px;
+	background:#ff9c00;
+	border:none;
+	border-radius: 4px;
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	}																																																														

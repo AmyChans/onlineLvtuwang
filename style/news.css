@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+.allbj{
+	background:none;
+}
+.bjbj{
+	width:100%;
+	height:15px;
+	background:url(../busimg/bjmiddle.png) repeat-x;
+}
+.public-box{
+	width:1206px;
+	min-height:600px;
+	margin:0 auto;
+}
+.main-hd-h {
+    color: #666;
+    font-size: 14px;
+    height: 48px;
+    line-height: 48px;
+    width: 1206px;
+}
+.main-hd-h a {
+    color: #3895e2;
+    font-size: 14px;
+}
+.main-hd-h a:hover {
+    text-decoration: underline;
+}
+.public-in{
+	width:1206px;
+	min-height:500px;
+	overflow:hidden;
+	margin-bottom:20px;
+}
+.in-l{
+	width:818px;
+	min-height:500px;
+	float:left;
+}
+.l-hd{
+	width:818px;
+	height:40px;
+	line-height:40px;
+	color:#3895e2;
+	font-size:18px;
+	border-bottom:2px solid #3895e2;
+	margin-bottom:10px;
+}
+.l-bd{
+	width:818px;
+	min-height:500px;
+	padding-bottom:20px;
+}
+.l-bd li{
+	width:793px;
+	height:30px;
+	line-height:30px;
+	background:url(../busimg/public/circle1.png) no-repeat 10px 14px;
+	padding-left:25px;
+}
+.l-bd li a{
+	float:left;
+	color:#666;
+	font-size:14px;
+	width:600px;
+	height:30px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+.l-bd li a:hover{
+	color:#3895e2;
+}
+.l-bd li span{
+	float:right;
+	color:#666;
+	font-size:14px;
+}
+.l-ft{
+	width:818px;
+	height:20px;
+	padding:15px 0;
+}
+.l-ft ul{
+	margin:0 auto;
+	width:180px;
+	height:20px;
+}
+.l-ft ul li{
+	float:left;
+	width:20px;
+	height:20px;
+	text-align:center;
+	line-height:18px;
+	margin:0 8px;
+	background:#CCC;
+	cursor:pointer;
+	color:#666;
+}
+.l-ft ul li.current{
+	background:#3895e2;
+	color:#FFF;
+}
+.l-ft ul li:hover{
+	background:#3895e2;
+	color:#FFF;
+}
+
+
+
+.in-r{
+	width:310px;
+	min-height:500px;
+    border:1px solid #CCC;
+	float:right;
+	padding:0 15px;
+}
+.r-hd{
+	width:310px;
+	height:40px;
+	line-height:40px;
+	border-bottom:2px solid #3895e2;
+	color:#3895e2;
+	font-size:18px;
+}
+.r-hd span{
+	float:left;
+}
+.r-hd a{
+	display:block;
+	float:right;
+	height:40px;
+	line-height:40px;
+	color:#3895e2;
+}
+.r-hd a:hover{
+	color:#ff9c00;
+}
+.r-bd{
+	width:310px;
+	min-height:450px;
+	margin:10px 0;
+}
+.r-bd li{
+	width:310px;
+	height:30px;
+	line-height:30px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+.r-bd li a{
+	color:#666;
+	font-size:14px;
+}
+.r-bd li a:hover{
+	color:#3895e2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
